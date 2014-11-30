@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the eo_EO (Esperanto) locale.
+  *
+  -->
+<locale name="eo_EO" full_name = "Esperanto">	
+
+<message key="plugins.block.subscription.displayName">Abona sekcio</message>
+	<message key="plugins.block.subscription.description">
+	  Tiu ĉi kromaĵo provizas informojn pri la abono en la flanka breto.
+	</message>
+	<message key="plugins.block.subscription.blockTitle">Abono</message>
+	<message key="plugins.block.subscription.expires">Finiĝos</message>
+	<message key="plugins.block.subscription.providedBy">Aliro provizata per:</message>
+	<message key="plugins.block.subscription.comingFromIP">Vi venas de IP:</message>
+	<message key="plugins.block.subscription.about">Abonoj</message>
+	<message key="plugins.block.subscription.loginToVerifySubscription">
+	  Ensalutu por validigi vian abonon.
+	</message>
+
+</locale>

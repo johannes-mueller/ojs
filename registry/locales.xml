@@ -22,6 +22,7 @@
 	<locale key="de_DE" name="Deutsch" iso639-2b="ger" iso639-3="deu" />
 	<locale key="en_US" name="English" iso639-2b="eng" iso639-3="eng" />
 	<locale key="el_GR" name="Greek" iso639-2b="gre" iso639-3="ell" />
+	<locale key="eo_EO" complete="fales" name="Esperanto" iso639-2b="epo" iso639-3="epo" />
 	<locale key="es_AR" name="Español (Argentina)" iso639-2b="spa" iso639-3="spa" />
 	<locale key="es_ES" name="Español" iso639-2b="spa" iso639-3="spa" />
 	<locale key="eu_ES" name="Basque" iso639-2b="eus" iso639-3="eus" />

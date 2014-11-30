@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email_texts SYSTEM "../../../../../lib/pkp/dtd/emailTemplateData.dtd">
+<!--
+  * emailTemplates.xml
+  *
+  * Copyright (c) 2003-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localized email templates XML file.
+  *
+  * $Id$
+  -->
+<email_texts locale="eo_EO">
+	<email_text key="MANUAL_PAYMENT_NOTIFICATION">
+		<subject>Sciigo pri pago</subject>
+		<body>Pago anonciĝis por la Scienca Revuo kaj la uzanto
+		  {$userFullName} (uzantnomo "{$userName}")
+
+		  La pago estas por "{$itemName}".
+		  La pagenda sumo estas {$itemCost} ({$itemCurrencyCode}.</body>
+		<description>Tiu ĉi retmesaĝa ŝablono etas uzata por sciigi la
+		  abonadministranton, ke pago estas anoncita.</description>
+	</email_text>
+</email_texts>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * ojs2-devel/locale/en_US/editor.xml
+  *
+  * Copyright (c) 2003-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (English) locale.
+  *
+  * $Id$
+  -->
+
+<locale name="eo_EO" full_name = "Esperanto">
+
+	<message key="editor.article.reviewForms">Reviziaj formularoj</message>
+	<message key="editor.article.selectReviewForm">Elekti revizian formularon</message>
+	<message key="editor.article.clearReviewForm">Malplenigi revizian formularon</message>
+	<message key="editor.home">Redaktista ĉefpaĝo</message>
+<!--nefarite
+	 <message key="editor.article.confirmChangeReviewForm">Warning: Changing the review form will affect any answers reviewers have made using this form. Are you sure you wish to continue?</message>
+	<message key="editor.submissionsAndPublishing">Submissions and Publishing</message>
+-->
+	<message key="editor.submissionQueue">Ensendaĵa vico</message>
+	<message key="editor.submissionArchive">Ensendaĵa arkivo</message>
+	<message key="editor.publishing">Publikigas</message>
+	<message key="editor.publishedIssues">Publikigita eldono</message>
+	<message key="editor.allSections">Ĉiuj rubrikoj</message>
+	<message key="editor.allEditors">Ĉiuj redaktistoj</message>
+	<message key="editor.me">Mi</message>
+	<message key="editor.submissionReview.confirmDecision">Ĉu vi certas, ke vi volas registri tiun decidon?</message>
+	<message key="editor.submissionReview.emailWillArchive">
+	  Tiu ensendaĵo estos enarkivigata post retmesaĝo sciigota la verkanton
+	  estas sendita aŭ la "Ellasi mesaĝon"-butono estas alklakata.
+	</message>
+	<message key="editor.submissionArchive.noSubmissions">Neniom da ensendaĵoj en la arkivo</message>
+	<message key="editor.submissionArchive.saveChanges">
+	  Ĉu konservi ŝanĝojn al arkivitaj ensendaĵoj. Ensendaĵoj
+	  markitaj por forviŝo estos por ĉiam forigitaj de la sistemo.
+	</message>
+	<message key="editor.submissionArchive.confirmDelete">
+	  Ĉu vi certas ke vi volas fine forviŝi la ensendaĵon?
+	</message>
+
+	<message key="editor.submissionReview.cannotSendToCopyediting">
+	  Antaŭ ol sendi ensendaĵon al provlegado, uzu Sciigi
+	  Verkanton por sciigi la verkanton pri via decido kaj elektu
+	  la version sendotan.
+	</message>
+	<message key="editor.submissionReview.sendToCopyediting">Sendi al provlegado</message>
+	<message key="editor.notifyUsers">Sciigi uzantojn</message>
+<!--nefarite
+	<message key="editor.notifyUsers.allUsers">All users associated with this conference ({$count} users)</message>
+	<message key="editor.notifyUsers.allReaders">All readers ({$count} users)</message>
+	<message key="editor.notifyUsers.allAuthors">All published authors ({$count} users)</message>
+	<message key="editor.notifyUsers.allIndividualSubscribers">All individual subscribers ({$count} users)</message>
+	<message key="editor.notifyUsers.allInstitutionalSubscribers">All institutional subscribers ({$count} users)</message>
+	<message key="editor.notifyUsers.inProgress">Notifying users...</message>
+	<message key="editor.usersNotified">Users Notified</message>
+	<message key="editor.notifyUsers.allUsers">Send this message to all users associated with this journal ({$count} users)</message>
+	<message key="editor.notifyUsers.interestedUsers">Send this message to the users associated with this journal who have indicated that they wish to receive updates ({$count} users)</message>
+	<message key="editor.notifyUsers.includeToc">Include the table of contents from this issue:</message>
+	<message key="editor.editorAdministration">Editor Administration</message>
+-->
+	<message key="editor.issues.createIssue">Krei eldonon</message>
+	<message key="editor.issues.backIssues">Pasintaj eldonoj</message>
+	<message key="editor.issues.futureIssues">Estontaj eldonoj</message>
+	<message key="editor.issues.currentIssue">Aktuala eldono</message>
+	<message key="editor.issues.numArticles">Kvanto de kontribuaĵoj</message>
+	<message key="editor.issues.noArticles">Ankoraŭ neniaj eroj antaŭviditaj por tiu ĉi eldono.</message>
+	<message key="editor.issues.confirmDelete">Ĉu vi certas, ke vi eterne volas neniigi tiun ĉi eldonon?</message>
+	<message key="editor.issues.published">Publikigita</message>
+	<message key="editor.issues.unpublished">Nepublikigita</message>
+<!--nefarite
+	<message key="editor.issues.volumeRequired">Volume is required and must be a positive, numeric value.</message>
+	<message key="editor.issues.numberRequired">Number is required and must be a positive, numeric value.</message>
+	<message key="editor.issues.yearRequired">Year is required and must be a positive, numeric value.</message>
+	<message key="editor.issues.titleRequired">Title is required for the issue.</message>
+	<message key="editor.issues.issueIdentificationRequired">Issue identification is required. Please select at least one of the issue identification options.</message>
+	<message key="editor.issues.publicIssueIdentifier">Public issue identifier</message>
+-->
+	<message key="editor.issues.description">Priskribo</message>
+	<message key="editor.issues.accessStatus">Alirstato</message>
+	<message key="editor.issues.accessDate">Malfermalirdato</message>
+
+	<message key="editor.issues.enableOpenAccessDate">Ebligu malfruitan malferman aliron</message>
+	<message key="editor.issues.issuePublicIdentificationExists">Publika eldona itendigilo jam ekzistas..</message>
+	<message key="editor.issues.coverPageInstructions">(Taŭgaj formatoj: .gif, .jpg, aŭ .png )</message>
+
+	<message key="editor.issues.coverPage">Kuverta paĝo</message>
+	<message key="editor.issues.uploaded">Alŝutita</message>
+	<message key="editor.issues.remove">Viŝi</message>
+	<message key="editor.issues.proofed">Aprobita</message>
+	<message key="editor.issues.removeCoverPage">Ĉu forigi kuvertan bildon?</message>
+	<message key="editor.issues.invalidCoverPageFormat">
+	  Netaŭga kuverta bildformato. Akcepteblaj formatoj estas .gif, .jpg kaj .png.
+	</message>
+	<message key="editor.issues.styleFile">Stilfolio</message>
+	<message key="editor.issues.invalidStyleFormat">
+	  Netaŭga kuverta stilfolia formato. Certigu ke la alŝutita
+	  dosiero estas valida CSS. Notu ke stilfolioj kun komentoj en
+	  la komenco eble malakceptiĝas.
+	</message>
+	<message key="editor.issues.removeStyleFile">Ĉu forigi stilfolion?</message>
+	<message key="editor.issues.coverPageCaption">Kuverta apudskribo</message>
+	<message key="editor.issues.showCoverPage">Krei kuverton por tiu ĉi eldono kun la sekvaj elementoj.</message>
+	<message key="editor.issues.coverPageDisplay">Montri</message>
+	<message key="editor.issues.hideCoverPageArchives">Ne montri miniaturon de la kuverto en la listo de eldonoj.</message>
+	<message key="editor.issues.hideCoverPageCover">Ne montri miniaturon de la kuverto antaŭ la enhavolisto</message>
+	<message key="editor.issues.openAccess">Malferma aliro</message>
+	<message key="editor.issues.subscription">Abono</message>
+	<message key="editor.issues.access">Aliro</message>
+	<message key="editor.issues.cover">Kuverto</message>
+	<message key="editor.issues.confirmIssueDelete">
+	  Ĉiuj artikoloj reeniros la redaktan procezon kaj ĉiuj
+	  alkroĉitaj dosieroj estos viŝitaj. Ĉu vi certas, ke vi volas
+	  forigi tiun ĉi eldonon?
+	</message>
+	<message key="editor.issues.resetIssueOrder">
+	  <![CDATA[Tiu ĉi revuo uzas specialan eldonan sinsekvon <a href="{$url}" class="action">Remeti al defaŭlto</a>]]>
+	</message>
+
+	<message key="editor.issues.saveChanges">Ĉu konservi la ŝanĝojn de la enhavolisto</message>
+	<message key="editor.issues.default">Defaŭlto</message>
+	<message key="editor.issues.order">Sinsekvo</message>
+	<message key="editor.issues.publicId">Publika identigo</message>
+	<message key="editor.issues.publishIssue">Publikigi eldonon</message>
+	<message key="editor.issues.unpublishIssue">Malpublikigi eldonon</message>
+	<message key="editor.issues.confirmPublish">Ĉu vi certas, ke vi volas publikigi la novan eldonon?</message>
+	<message key="editor.issues.confirmUnpublish">Ĉu vi certas ke vi volas malpublikigi tiun ĉi eldonon?</message>
+	<message key="editor.issues.publicArticleIdExists">Ne eblas konservi publikan identigon por artikolo:</message>
+	<message key="editor.issues.noLiveIssues">Neniu aktuala eldono</message>
+	<message key="editor.issues.open">Malferma</message>
+	<message key="editor.issues.pages">Paĝoj</message>
+
+	<message key="editor.issues.identification">Identigo</message>
+	<message key="editor.issues.issueIdentification">Eldona identigo</message>
+
+	<message key="editor.navigation.issues">Eldonoj</message>
+	<message key="editor.navigation.futureIssues">Estontaj eldonoj</message>
+	<message key="editor.navigation.createIssue">Krei eldonon</message>
+	<message key="editor.navigation.issueArchive">Aperintaj eldonoj</message>
+	<message key="editor.issues.issueData">Eldonaj datumoj</message>
+	<message key="editor.issues.galleys">Eldonaj presprovaĵoj</message>
+	<message key="editor.issues.previewIssue">Antaŭrigardi eldonon</message>
+	<message key="editor.issues.preview">Antaŭrigardo</message>
+<!--nefarite
+	<message key="editor.article.designateReviewVersion">Designate the original file as the Review Version</message>
+-->
+	<message key="editor.article.uploadReviewVersion">Alŝuti reviziitan version</message>
+	<message key="editor.article.showSuppFile">Presenti dosieron al reviziantoj</message>
+	<message key="editor.article.layoutAndProof">Enpaĝigo &amp; Provo</message>
+	<message key="editor.article.clear">Malplenigi</message>
+	<message key="editor.article.clearReviewer">Forigi revizianton</message>
+	<message key="editor.article.changeSection">Ŝanĝi rubrikon</message>
+	<message key="editor.article.setDueDate">Anonci limdaton</message>
+	<message key="editor.article.addReviewer">Aldoni revizianton</message>
+	<message key="editor.article.toReviewer">Al revizianto</message>
+	<message key="editor.article.notifyReviewer">Sciigi revizianton</message>
+	<message key="editor.article.initiateReview">Komenci revizion</message>
+	<message key="editor.article.cancelReview">Nuligi peton</message>
+	<message key="editor.article.clearReview">Forigi revizianton</message>
+	<message key="editor.article.enterRecommendation">Enigi rekomendon</message>
+	<message key="editor.article.enterReviewerRecommendation">Enigi rekomendon pri revizianto</message>
+	<message key="editor.article.recommendation">Rekomendo</message>
+	<message key="editor.article.selectReviewer">Elektu revizianton</message>
+	<message key="editor.article.replaceReviewer">Anstataŭigu revizianton</message>
+	<message key="editor.article.editorToEnter">Redaktilo por enigi komentojn kaj rekomendojn al revizianto</message>
+	<message key="editor.article.uploadReviewForReviewer">Alŝutu reviziaĵon</message>
+	<message key="editor.article.peerReviewOptions">Kolegreviziaj opcioj</message>
+	<message key="editor.article.decision">Decido</message>
+	<message key="editor.article.noEditorSelected">Neniu redaktisto elektita.</message>
+	<message key="editor.article.recordDecision">Registri decidon</message>
+	<message key="editor.article.cannotRecord">Ankoraŭ nenia revizia rezulto. Eble mankas reviziota dosiero.</message>
+	<message key="editor.article.reviewersSeeAuthorsVersion">Reviziantoj ricevontaj verkantan version</message>
+	<message key="editor.article.designateDueDate">Fiksi limdaton</message>
+	<message key="editor.article.designateDueDateDescription">Entajpu daton aŭ nombro da semajnoj por la nova limdato.</message>
+	<message key="editor.article.todaysDate">Hodiaŭa datumo</message>
+	<message key="editor.article.requestedByDate">Petitaj laŭ dato</message>
+	<message key="editor.article.dueDateFormat">Formato: JJJJ-MM-TT</message>
+	<message key="editor.article.numberOfWeeks">Nombro de semajnoj</message>
+<!--nefarite
+	<message key="editor.article.selectCopyeditor">Assign Copyeditor</message>
+	<message key="editor.article.replaceCopyeditor">Replace Copyeditor</message>
+	<message key="editor.article.editorsCopyedit">Editor's Copyedit</message>
+	<message key="editor.article.showAuthor">Let author view file</message>
+	<message key="editor.article.showCopyeditor">Show version to copyeditor</message>
+	<message key="editor.article.rateReviewer">Reviewer rating</message>
+	<message key="editor.article.reviewerRating.veryGood">5 High</message>
+	<message key="editor.article.reviewerRating.good">4</message>
+	<message key="editor.article.reviewerRating.average">3</message>
+	<message key="editor.article.reviewerRating.poor">2</message>
+	<message key="editor.article.reviewerRating.veryPoor">1 Low</message>
+	<message key="editor.article.comments">Comments</message>
+	<message key="editor.article.commentsRequired">The comments field is required.</message>
+	<message key="editor.article.saveRating">Save Rating</message>
+	<message key="editor.article.noneSelected">None Selected</message>
+	<message key="editor.article.authorProofing">Author Proofing</message>
+-->
+	<message key="editor.article.archiveSubmission">Malaprobi kaj enarkivigi ensendaĵon</message>
+	<message key="editor.article.restoreToQueue">Remeti al aktiva listo</message>
+	<message key="editor.article.assignSectionEditor">Asigni rubrikredaktiston</message>
+	<message key="editor.article.assignEditor">Asigni redaktiston</message>
+	<message key="editor.article.selectEditor">Select {$roleName}</message>
+	<message key="editor.article.selectDecision">Elektu decidon</message>
+	<message key="editor.article.decision.accept">Akcepti ensendaĵon</message>
+	<message key="editor.article.decision.pendingRevisions">Revizioj bezonataj</message>
+	<message key="editor.article.decision.resubmit">Reensendu por revizio</message>
+	<message key="editor.article.decision.decline">Malakcepti ensendaĵon</message>
+	<message key="editor.submissions.assignedTo">Asignita al</message>
+	<message key="editor.submissions.inSection">En rubriko</message>
+	<message key="editor.submissions.lastAssigned">Laste</message>
+	<message key="editor.submissions.averageTime">Semajnoj</message>
+	<message key="editor.submissions.lastCompleted">Laste kompletigita</message>
+
+<!-- nefarite
+	<message key="editor.article.selectLayoutEditor">Select Layout Editor</message>
+	<message key="editor.article.replaceLayoutEditor">Replace Layout Editor</message>
+	<message key="editor.aticle.reviewSubmission">Review Submission</message>
+	<message key="editor.article.resubmitForReview">Resubmit file for Review</message>
+	<message key="editor.article.resubmitFileForPeerReview">Resubmit selected file for peer review</message>
+	<message key="editor.article.sendToCopyedit">Send file to Copyediting</message>
+	<message key="editor.article.selectProofreader">Assign Proofreader</message>
+	<message key="editor.article.replaceProofreader">Replace Proofreader</message>
+	<message key="editor.article.authorComments">Author Comments</message>
+	<message key="editor.article.proofreaderComments">Proofreader Comments</message>
+	<message key="editor.article.layoutEditorFinal">Layout Editor Final</message>
+	<message key="editor.article.noDate">(date)</message>
+	<message key="editor.submissions.showBy">Show By</message>
+	<message key="editor.submissions.submitMMDD">Submit MM-DD</message>
+	<message key="editor.submissions.activeAssignments">Active Assignments</message>
+	<message key="editor.submissions.invite">Invite</message>
+	<message key="editor.submissions.accept">Accept</message>
+	<message key="editor.submissions.noSubmissions">No Submissions</message>
+	<message key="editor.article.payment.publicationFeeNotPaid">Publication Fee not paid. To schedule item for publication notify author to pay fee or waive fee.</message>
+-->
+	<message key="editor.article.display">Montri</message>
+	<message key="editor.article.hideTocAuthorDescription">
+	  Ellasi nomojn de verkantoj en la eldona enhavolisto.
+	</message>
+	<message key="editor.article.hideTocAuthorDefault">Defaŭlto</message>
+	<message key="editor.article.hideTocAuthorHide">Ellasi</message>
+	<message key="editor.article.hideTocAuthorShow">Montri</message>
+	<message key="editor.article.scheduleForPublication">Antaŭvidi por publikigado en</message>
+	<message key="editor.article.scheduleForPublication.toBeAssigned">Asignota</message>
+	<message key="editor.article.cover">Kuverto</message>
+	<message key="editor.article.coverPage">Koverta bildo</message>
+	<message key="editor.article.showCoverPage">
+	  Krei kuverton por tiu ĉi artikolo kun la sekvaj eroj.
+	</message>
+	<message key="editor.article.coverPageDisplay">Montri</message>
+	<message key="editor.article.hideCoverPageToc">
+	  Ne montri la kuverton kiel miniaturon en la enhavolisto.
+	</message>
+	<message key="editor.article.hideCoverPageAbstract">
+	  Ne montri la kuvertan bildon en la resuma aspekto.
+	</message>
+	<message key="editor.article.coverPageInstructions">(Taŭgaj formatoj: .gif, .jpg, aŭ .png )</message>
+	<message key="editor.article.uploaded">Alŝutita</message>
+	<message key="editor.article.removeCoverPage">Ĉu forigi kuvertan paĝon?</message>
+	<message key="editor.article.remove">Forigi</message>
+
+	<message key="editor.article.showAuthor">Montri la dosieron al la aŭtoro</message>
+<!--nefarite
+	<message key="editor.issues.invalidAccessDate">Access date is not valid.</message>
+-->
+</locale>

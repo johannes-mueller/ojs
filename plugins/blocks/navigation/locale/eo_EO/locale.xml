@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the eo_EO, Esperanto locale.
+  *
+  * $Id$
+  -->
+ 
+<locale name="eo_EO" full_name="Esperanto">
+	<message key="plugins.block.navigation.displayName">Naviga parto</message>
+	<message key="plugins.block.navigation.description">Tiu ĉi kromaĵo prisorgas navigilon flankbretan.</message>
+	<message key="plugins.block.navigation.journalContent">Revua enhavo</message>
+</locale>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the eo_EO (Esperanto) locale.
+  *
+  * $Id$
+ -->
+
+<locale name="eo_EO" full_name="Esperanto">
+	<message key="plugins.paymethod.manual.displayName">Permana pago</message>
+	<message key="plugins.paymethod.manual.description">
+	  La abona administranto registras la ricevon de la pagoj permane.
+	</message>
+	<message key="plugins.paymethod.manual">Permana pago</message>
+	<message key="plugins.paymethod.manual.settings">Agordoj por permana pago</message>
+	<message key="plugins.paymethod.manual.settings.instructions">Indikoj</message>
+	<message key="plugins.paymethod.manual.settings.manualInstructions">
+	  Pagindikoj por uzantoj, kiuj permane pagas
+	</message>
+	
+	<message key="plugins.paymethod.manual.sendNotificationOfPayment">Sendi paganonco</message>
+	<message key="plugins.paymethod.manual.paymentNotification">Paganonco</message>
+	<message key="plugins.paymethod.manual.notificationSent">Paganonco sendita</message>
+
+	<message key="plugins.paymethod.manual.purchase.title">Titolo</message>
+	<message key="plugins.paymethod.manual.purchase.fee">Kotizo</message>	
+</locale>
