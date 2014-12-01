@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/usageStats/locale/eo_EO/locale.xml
+  *
+  * Copyright (c) 2013-2014 Simon Fraser University Library
+  * Copyright (c) 2003-2014 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization strings for the de_DE (Deutsch (Deutschland)) locale.
+  * Please contact Marco Tullney, marco.tullney@fu-berlin.de, with any questions regarding this translation.
+  -->
+
+<locale name="eo_EO" full_name = "Esperanto">
+	<message key="plugins.generic.usageStats.settings.logging">Alirprotokolo agordoj</message>
+	<message key="plugins.generic.usageStats.settings.createLogFiles">Krei protokoldosierojn</message>
+	<message key="plugins.generic.usageStats.settings.createLogFiles.description">
+	  La aktivigo de tiu agoro permesas al la kromaĵo krei alirprotokolajn
+	  dosierojn ene de la dosierujo. Tiuj dosieroj estu uzataj por eltiri
+	  la uzstatistikon. Se vi ne volas krei alirprotokolojn, vi povas lasi
+	  tiun agordon malaktiva kaj uzi viajn servilajn protokolojn.
+	</message>
+	<message key="plugins.generic.usageStats.settings.logParseRegex">Regex por trairi la protokoldosieron</message>
+	<message key="plugins.generic.usageStats.settings.logParseRegex.description">
+	  La kutima regula esprimo povas legi Apache-protokoldosierojn en la
+	  "Combined" formato kaj la protokolojn de la kromaĵo. Se viaj
+	  alirprotokoloj estas en alia formato, vi devas aldoni regulan
+	  esprimon, laŭ kiu la protokoloj povas esti legataj. Vidu ankaŭ
+	  UsageStatsLoader::_getDataFromLogEntry() por pliaj informoj.
+	</message>
+	<message key="plugins.generic.usageStats.settings.saved">Agordoj de la protokola kromaĵo konservitaj</message>
+
+	<message key="plugins.generic.usageStats.usageStatsLoaderName">Uzstatistika dosierŝargilo</message>
+	<message key="plugins.generic.usageStats.openFileFailed">La dosiero {$file} ne povis esti malfermata.</message>
+	<message key="plugins.generic.usageStats.invalidLogEntry">La linio {$lineNumber} el dosiero {$file} ne estas valida protokolero.</message>
+	<message key="plugins.generic.usageStats.removeUrlError">La linio {$lineNumber} el dosiero {$file} enhavas adreson sen eltirebla baza URL.</message>
+	<message key="plugins.generic.usageStats.loadDataError">
+	  Ne eblis eltiri datumojn el dosiero {$file}. Eraro: {$error}. La
+	  dosiero estas forigita por nova prilaboro.
+	</message>
+	<message key="plugins.generic.usageStats.displayName">Uzostatistiko</message>
+	<message key="plugins.generic.usageStats.description">
+	  Montras uzostatistiko de objektoj. Povas uzi la servilajn protokolojn
+	  por eltiri datumojn.
+	</message>
+	<message key="plugins.generic.usageStats.openFileFailed">
+	  Uzostatistika kromaĵo estas malaktiva. Neniaj protokoldatumoj prilaboritaj.
+	</message>
+	
+	<message key="plugins.reports.usageStats.report.displayName">OJS uzostatstika raporto</message>
+	<message key="plugins.reports.usageStats.report.description">OJS raporto pri uzostatistiko (COUNTER-kapabla)</message>
+	
+	<message key="plugins.reports.usageStats.metricType">OJS/COUNTER</message>
+	<message key="plugins.reports.usageStats.metricType.full">Open-Journal-Systems statistikoj (COUNTER-kapablaj)</message>
+</locale>
