@@ -16,5 +16,5 @@
 	<message key="plugins.block.navigation.displayName">Naviga parto</message>
 	<message key="plugins.block.navigation.description">Tiu ĉi kromaĵo prisorgas navigilon flankbretan.</message>
 	<message key="plugins.block.navigation.journalContent">Revua enhavo</message>
-	<message key="plugins.block.navigation.searchScope">Serĉregiono</message>
+	<message key="plugins.block.navigation.searchScope">Serĉkriterio</message>
 </locale>
