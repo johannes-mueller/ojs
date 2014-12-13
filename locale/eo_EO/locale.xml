@@ -234,7 +234,7 @@
 
 	<message key="user.orcid">ORCID-iD</message>
 	<message key="user.orcid.description">
-	  <![CDATA[ORCID-iDoj estas identigiloj eldonitaj de <a
+	  <![CDATA[ORCID-iDoj estas identigiloj eldonataj de <a
 	  href="http://orcid.org/" target="_blank">la ORCID-asocio</a>. Se vi
 	  havas tian identigilon vi povas enmeti ĝin laŭ la maniero de
 	  ORCID-iDoj per la plena URI
