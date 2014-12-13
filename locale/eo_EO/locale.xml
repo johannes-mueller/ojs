@@ -232,6 +232,19 @@
 	<message key="user.role.authors">Verkantoj</message>
 	<message key="user.role.subscriptionManagers">Administristoj de abonoj</message>
 
+	<message key="user.orcid">ORCID-iD</message>
+	<message key="user.orcid.description">
+	  <![CDATA[ORCID-iDoj estas identigiloj eldonitaj de <a
+	  href="http://orcid.org/" target="_blank">la ORCID-asocio</a>. Se vi
+	  havas tian identigilon vi povas enmeti ĝin laŭ la maniero de
+	  ORCID-iDoj per la plena URI
+	  (ekzemple. <em>http://orcid.org/0000-0002-1825-0097</em>)]]>
+	</message>
+	<message key="user.profile.form.orcidInvalid">
+	  La ORCID-iD estas nevalida.
+	</message>
+
+
 	<!-- Allgemeine Begriffe: Ausgabe -->
 	<message key="issue.issue">Eldono</message>
 	<message key="issue.issues">Eldonoj</message>
