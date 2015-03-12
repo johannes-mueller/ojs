@@ -978,7 +978,6 @@ Sie können der Nutzerin/dem Nutzer einen Grund für die Sperrung des Zugangs an
 (Weitere Kommentare können nach dem Speichern hinzugefügt werden.)]]></message>
 	<message key="submission.comments.canShareWithAuthor">Für Autor/in und Redakteur/in</message>
 	<message key="submission.comments.cannotShareWithAuthor">Für Redakteur/in</message>
-	<message key="submission.comments.blindCcReviewers">Nach dem Abschicken wird Ihnen eine bearbeitbare Blindkopie-E-Mail angezeigt, die an die Gutachter/innen geschickt werden kann.</message>
 	<message key="submission.comments.forAuthorEditor">Für Autor/in und Redakteur/in</message>
 	<message key="submission.comments.forEditor">Für Redakteur/in</message>
 	<message key="submission.comments.saveAndEmailAuthor">Speichern und E-Mail an Autor/in senden</message>
@@ -989,6 +988,11 @@ Sie können der Nutzerin/dem Nutzer einen Grund für die Sperrung des Zugangs an
 	|!-- Abonnements --|
 
 -->
+       	<message key="submission.comments.blindCcReviewers"> 
+	  Post la sendo vi ricevos blindan kopion, kiun vi povas sendi al la
+	  reviziantoj.
+	</message>
+
 <!--nefarite
 
 
