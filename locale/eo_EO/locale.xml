@@ -756,6 +756,11 @@ Bitte beachten Sie, dass die OAI-Schnittstelle für diese Website in der OJS-Sys
 
 	<message key="payment.type.subscription">Abonkotizo</message>
 
+       	<message key="submission.comments.blindCcReviewers"> 
+	  Post la sendo vi ricevos blindan kopion, kiun vi povas sendi al la
+	  reviziantoj.
+	</message>
+
 
 <!-- nefarite
 	|!-- Sprachen --|
@@ -988,10 +993,6 @@ Sie können der Nutzerin/dem Nutzer einen Grund für die Sperrung des Zugangs an
 	|!-- Abonnements --|
 
 -->
-       	<message key="submission.comments.blindCcReviewers"> 
-	  Post la sendo vi ricevos blindan kopion, kiun vi povas sendi al la
-	  reviziantoj.
-	</message>
 
 <!--nefarite
 
