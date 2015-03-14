@@ -411,6 +411,78 @@ Bitte beachten Sie, dass die OAI-Schnittstelle für diese Website in der OJS-Sys
 	<message key="about.copyrightNotice">Noto pri kopirajto</message>
 
 
+	<!-- permesilo -->
+	<message key="submission.permissions">Rajtoj</message>
+	<message key="submission.license">Permesilo</message>
+	<message key="submission.copyright">Kopirajto</message>
+	<message key="submission.copyrightHolder">Kopirajta persono</message>
+	<message key="submission.copyrightYear">Kopirajta jaro</message>
+	<message key="submission.copyrightStatement">Kopirajto (c) {$copyrightYear} {$copyrightHolder}</message>
+	<message key="submission.licenseURLValid">
+	  Bonvolu enigi validan URLn (inklusive http://).
+	</message>
+	<message key="submission.licenseURL">Permesila URL</message>
+	<message key="submission.license.cc.by-nc-nd4">CC Atribuite – Nekomerce – Nemodifite 4.0</message>
+	<message key="submission.license.cc.by-nc4">CC Atribuite – Nekomerce 4.0</message>
+	<message key="submission.license.cc.by-nc-sa4">CC Atribuite – Nekomerce – Samkondiĉe 4.0</message>
+	<message key="submission.license.cc.by-nd4">CC Atribuite – Nemodifite 4.0</message>
+	<message key="submission.license.cc.by4">CC Atribuite 4.0</message>
+	<message key="submission.license.cc.by-sa4">CC Atribuite - Samkondiĉe 4.0</message>
+	<message key="submission.license.cc.by-nc-nd4.footer">
+	  <![CDATA[ <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.eo"><img
+	  alt="Krea komunaĵa permesilo" style="border-width:0"
+	  src="http://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br
+	  />Tiu ĉi verko estas distibruata laŭ la permesilo <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+	  Krea komunaĵa Atribuite – Nekomerce — Nemodifite 4.0 Interncia</a>.]]>
+	</message>
+	<message key="submission.license.cc.by-nc4.footer">
+	  <![CDATA[ <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nc/4.0/deed.eo"><img
+	  alt="Krea komunaĵa permesilo" style="border-width:0"
+	  src="http://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br
+	  />Tiu ĉi verko estas distibruata laŭ la permesilo <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+	  Krea komunaĵa Atribuite – Nekomerce 4.0 Interncia</a>.]]>
+	</message>
+	<message key="submission.license.cc.by-nc-sa4.footer">
+	  <![CDATA[ <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.eo"><img
+	  alt="Krea komunaĵa permesilo" style="border-width:0"
+	  src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br
+	  />Tiu ĉi verko estas distibruata laŭ la permesilo <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+	  Krea komunaĵa Atribuite – Nekomerce — Samkondiĉe 4.0 Interncia</a>.]]>
+	</message>
+	<message key="submission.license.cc.by-nd4.footer">
+	  <![CDATA[ <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nd/4.0/deed.eo"><img
+	  alt="Krea komunaĵa permesilo" style="border-width:0"
+	  src="http://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br
+	  />Tiu ĉi verko estas distibruata laŭ la permesilo <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+	  Krea komunaĵa Atribuite — Nemodifite 4.0 Interncia</a>.]]>
+	</message>
+	<message key="submission.license.cc.by4.footer">
+	  <![CDATA[ <a rel="license"
+	  href="http://creativecommons.org/licenses/by/4.0/deed.eo"><img
+	  alt="Krea komunaĵa permesilo" style="border-width:0"
+	  src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br
+	  />Tiu ĉi verko estas distibruata laŭ la permesilo <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+	  Krea komunaĵa Atribuite 4.0 Interncia</a>.]]>
+	</message>
+	<message key="submission.license.cc.by-sa4.footer">
+	  <![CDATA[ <a rel="license"
+	  href="http://creativecommons.org/licenses/by-sa/4.0/deed.eo"><img
+	  alt="Krea komunaĵa permesilo" style="border-width:0"
+	  src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br
+	  />Tiu ĉi verko estas distibruata laŭ la permesilo <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+	  Krea komunaĵa Atribuite – Samkondiĉe 4.0 Interncia</a>.]]>
+	</message>
+
 	<!-- nefarite
 	<message key="about.submissionPreparationChecklist">Checkliste für Beitragseinreichungen</message>
 	<message key="about.submissionPreparationChecklist.description">Als Teil des Einreichungsverfahren werden die Autor/innen gebeten, anhand der  Checkliste für Beiträge die Übereinstimmung ihres Beitrags Punkt für Punkt mit den angegebenen Vorgaben abzugleichen. Beiträge können an Autor/innen, die die Richtlinien nicht befolgen, zurückgegeben werden.</message>
