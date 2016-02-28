@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the eo_EO (Esperanto) locale.
+  *
+  * $Id$
+  -->
+ 
+<locale name="eo_EO" full_name="Esperanto">
+         <message key="manager.files.note">Rimarko: La dosiernavigilo
+         ebligas rekte rigardi kaj prilabori la dosierojn kaj
+         dosierujojn ligitajn kun revuo.</message>
+         <message key="manager.setup">Agordi</message>
+	 <message key="manager.journalManagement">Revua administrado</message>
+	 <message key="manager.people.allUsers">Ĉiuj uzantoj</message>
+	 <message key="manager.people.enrollExistingUser">Roligi ekzistantan uzanton</message>
+	 <message key="manager.people.roleEnrollment">Doni rolon {$role}</message>
+	 <message key="manager.people.confirmRemove">Ĉu vere forigi tiun uzanton de la revuo? La uzanto poste ne plu havos rolon en la revuo.</message>
+	 <message key="manager.people.confirmDisable">Ĉu vere malaktivigi la konton de tiu uzanto? Tio malebligos al la uzanto ensaluti.</message>
+
+	 <message key="manager.managementPages">Administrado</message>
+	 <message key="manager.reviewForms">Formularoj pri reviziado</message>
+	 <message key="manager.groups">Kolofono</message>
+	 <message key="manager.payments">Pagoj</message>
+	 <message key="manager.people.allEnrolledUsers">Registritaj uzantoj</message>
+	 <message key="manager.people.allSiteUsers">Roligi uzantojn por la revuo</message>
+	 <message key="manager.people.showNoRole">Montri senrolajn uzantojn</message>
+
+	 <message key="manager.sections.create">Krei rubrikon</message>
+	 <message key="manager.sections.policy">Rubrikaj gvidlinioj</message>
+	 <message key="manager.section.submissionsToThisSection">Kontribuoj por tiu ĉi rubriko</message>
+	 <message key="manager.sections.submissionReview">Ne okazos kolega revizio</message>
+	 <message key="manager.sections.abstractsNotRequired">Ne necesas resumoj</message>
+	 <message key="manager.sections.submissionIndexing">Ne estos indeksitaj per la revuo</message>
+	 <message key="manager.sections.identifyType">Marki rubrikajn artikolojn kiel</message>
+	 <message key="manager.sections.identifyTypeExamples">...</message>
+	 <message key="manager.sections.editorRestriction">Nur redaktistoj rajtas kontribui al tiu ĉi rubriko.</message>
+	 <message key="manager.sections.wordCount">Vortkvanto</message>
+	 <message key="manager.sections.wordCountInstructions">Limigi vortkvanton por tiu ĉi rubriko (0 signifas senlime)</message>
+	 <message key="manager.sections.hideAbout">Ne mencii tiun ĉi rubrikon en la paĝo "Pri"</message>
+	 <message key="manager.sections.hideTocAuthor">Ne mencii verkantojn de tiu ĉi rubriko en la enhavo</message>
+	 <message key="manager.sections.hideTocTitle">Ne mencii titolojn de tiu ĉi rubriko en la enhavo</message>
+
+
+	 <message key="manager.section.sectionEditorInstructions"><![CDATA[Aldonu al tiu ĉi rubriko rubrikan redaktiston el la disponeblaj
+		    rubrikaj redaktistoj. Aldoninte ĝin indiku, ĉu la rubrika redaktisto faru
+		    la <em>revizian</em> (kolega reviziado) aŭ la <em>redaktan</em>
+		    (provlegado, koreklegado, enpaĝigo) procezon de la kontribuoj de tiu ĉi
+		    rubriko. Vi povas krei rubrikajn redaktistojn per alklaki <a
+		    href="{$sectionEditorsUrl}">Rubrikaj redaktistoj</a> ĉe Revua
+		    administrado.]]></message>
+	 <message key="manager.sections.unassigned">Disponeblaj rubrikaj redaktistoj</message>
+	 <message key="manager.sections.assigned">Asignitaj rubrikaj redaktistoj</message>
+
+	 <message key="manager.reviewForms.noneChosen">Nenia aŭ libera formularo</message>
+
+	 <message key="manager.sections.open">Ensendo permesita</message>
+	 <message key="manager.sections.indexed">Eninndeksaj</message>
+	 <message key="manager.sections.reviewed">Reviziataj</message>
+
+
+
+	<message key="manager.subscriptions">Abonoj</message>
+	<message key="manager.individualSubscriptions">Individuaj abonoj</message>
+	<message key="manager.institutionalSubscriptions">Institutaj abonoj</message>
+	<message key="manager.subscriptions.confirmDelete">Ĉu vi certas, ke vi volas viŝi tiun abonon?</message>
+	<message key="manager.subscriptions.summary">Resumo de abonoj</message>
+	<message key="manager.subscriptions.create">Krei novan abonon</message>
+	<message key="manager.subscriptions.createTitle">Krei</message>
+	<message key="manager.subscriptions.renew">Renovigi</message>
+	<message key="manager.subscriptions.dateEnd">Fino</message>
+	<message key="manager.subscriptions.dateEndSearch">Fina dato</message>
+	<message key="manager.subscriptions.dateStart">Komenco</message>
+	<message key="manager.subscriptions.dateStartSearch">Komenca dato</message>
+	<message key="manager.subscriptions.domain">Domajno</message>
+	<message key="manager.subscriptions.edit">Modifi abonon</message>
+	<message key="manager.subscriptions.editTitle">Modifi</message>
+	<message key="manager.subscriptions.withStatus">Kun stato</message>
+	<message key="manager.subscriptions.allStatus">Ĉiuj</message>
+	<message key="manager.subscriptions.subscriptionType">Abona speco</message>
+	<message key="manager.subscriptionTypes">Abonaj specoj</message>
+	<message key="manager.subscriptions.form.membership">Membreco</message>
+	<message key="manager.subscriptions.form.referenceNumber">Referenca numero</message>
+	<message key="manager.subscriptions.form.subscriptionExists">La uzanto jam estas abonanto.</message>
+
+
+	<message key="manager.subscriptions.user">Uzanto</message>
+	<message key="manager.subscriptions.notes">Rimarkoj</message>
+	<message key="manager.subscriptions.form.status">Stato</message>
+	
+	<message key="manager.subscriptions.form.statusRequired">Abona stato bezonatas.</message>
+	<message key="manager.subscriptions.form.statusValid">Bonvolu elekti validan abonan staton.</message>
+	<message key="manager.subscriptions.form.typeId">Speco de abono</message>
+	<message key="manager.subscriptions.form.typeIdRequired">Speco de abono bezonatas.</message>
+	<message key="manager.subscriptions.form.typeIdValid">Elektu validan specon de abono.</message>
+	<message key="manager.subscriptions.form.dateStart">Komenca dato</message>
+	<message key="manager.subscriptions.form.dateStartRequired">Komenca dato bezonatas.</message>
+	<message key="manager.subscriptions.form.dateStartValid">Elektu validan komencan daton de la abono.</message>
+	<message key="manager.subscriptions.form.dateEnd">Fina dato</message>
+	<message key="manager.subscriptions.form.dateEndRequired">Fina dato bezonatas.</message>
+	<message key="manager.subscriptions.form.dateEndValid">Elektu validan finan daton de la abono.</message>
+	<message key="manager.subscriptions.form.userProfileInstructions">
+	Notu: Ĉiuj ĉi-subaj ŝanĝoj koncernas la uzantoprofilon tutsisteme.</message>
+	<message key="manager.subscriptions.form.userId">Uzanto</message>
+	<message key="manager.subscriptions.form.userContact">Kontakto</message>
+	<message key="manager.subscriptions.form.userIdRequired">Uzanto bezonatas</message>
+	<message key="manager.subscriptions.form.userIdValid">Elektu validan uzanton.</message>
+	<message key="manager.subscriptions.form.userCountryValid">Elektu validan landon.</message>
+	<message key="manager.subscriptions.form.notifyEmail">
+	  Sendu al la uzanto konfirman retpoŝton pri la detaloj de la abono.</message>
+	<message key="manager.subscriptions.form.notifyEmailValid">Bonvolu marki en la kesto.</message>
+	<message key="manager.subscriptions.form.membership">Membreco</message>
+	<message key="manager.subscriptions.form.referenceNumber">Referencnumero</message>
+	<message key="manager.subscriptions.form.membershipInstructions">
+	  Entajpu informojn pri membrecoj, se temas pri speco de abono, kiu nur atingeblas por membroj de asocio aŭ instituto.
+	</message>
+
+	<message key="manager.subscriptions.form.membershipRequired">
+	  Le elektita speco de abono bezonas informojn pri membrecoj.
+	</message>
+	<message key="manager.subscriptions.form.notes">Notoj</message>
+	<message key="manager.subscriptions.form.domain">Domajno</message>
+	<message key="manager.subscriptions.form.institutionName">Nomo de la instituto</message>
+	<message key="manager.subscriptions.form.institutionNameRequired">Nomo de la instituto bezonatas.</message>
+	<message key="manager.subscriptions.form.institutionMailingAddress">Adreso</message>
+
+	<message key="manager.subscriptions.form.saveAndCreateAnother">Konservi kaj krei plian abonon.</message>
+
+	<message key="manager.subscriptions.noneCreated">Neniu abono estis kreata.</message>
+
+	
+
+	<message key="manager.subscriptionPolicies">Abonaj gvidlinioj</message>
+	
+	<message key="manager.subscriptions.select">Elekti</message>
+
+	<message key="manager.subscriptions.selectSubscriber.desc">
+	  La revuaj administristoj, redaktisoj, rubrikaj redaktistoj,
+	  provlegantoj aŭtomate havas la rajtoj de abonantoj.
+	</message>
+
+	<message key="manager.subscriptions.selectUser">Elekti uzanton</message>
+	
+
+
+
+
+	<message key="manager.reviewForms.noneChosen">Nenia aŭ libera formularo</message>
+	<message key="manager.reviewForms.noneCreated">Neniu revizia formularo kreita</message>
+	<message key="manager.reviewForms.preview">Antaŭrigardo de la formularo</message>
+	<message key="manager.reviewForms.title">Titolo</message>
+
+	<message key="manager.reviewForms.inReview">Reviziataj</message>
+	<message key="manager.reviewForms.completed">Reviziitaj</message>
+
+	<message key="manager.reviewForms.list.description">
+	  La reviziaj formularoj ĉi tie kreataj montriĝas al
+	  reviziantoj por plenumado.  La formularoj povas esti
+	  asignataj al specifaj rubrikoj kaj redaktistoj povas elekti,
+	  kiu formularo estu uzota por la petata revizio.</message>
+
+	  <message key="manager.reviewForms.create">Krei revizian formularon</message>
+
+	  <message key="manager.reviewForms.description">Priskribo kaj instrukcioj</message>
+	  <message key="manager.reviewForms.edit">Prilabori revizian formularon</message>
+
+
+	<message key="manager.reviewFormElement.changeType">Ŝanĝo de speco de revizia formularo</message>
+	<message key="manager.reviewFormElements">Formulareroj</message>
+	<message key="manager.reviewFormElements.addResponseItem">Aldoni elekton</message>
+	<message key="manager.reviewFormElements.checkboxes">Markobutonoj</message>
+	<message key="manager.reviewFormElements.chooseType">Elektu la specion de la ero</message>
+	<message key="manager.reviewFormElements.confirmDelete">Komfirmu la forviŝon de publikigita formularero.</message>
+	<message key="manager.reviewFormElements.copyTo">Kopie al:</message>
+	<message key="manager.reviewFormElements.create">Aldoni novan eron:</message>
+	<message key="manager.reviewFormElements.dropdownbox">Fallista menuo</message>
+	<message key="manager.reviewFormElements.edit">Prilabori formulareron</message>
+	<message key="manager.reviewFormElements.elementType">Speco</message>
+	<message key="manager.reviewFormElements.form.elementTypeRequired">Tipo necesas por la formularero.</message>
+	<message key="manager.reviewFormElements.form.questionRequired">Demando necesas por la formularero.</message>
+	<message key="manager.reviewFormElements.noneCreated">Neniaj formulareroj kreitaj.</message>
+	<message key="manager.reviewFormElements.possibleResponse">Elekto</message>
+	<message key="manager.reviewFormElements.question">Ero</message>
+	<message key="manager.reviewFormElements.radiobuttons">Radiobutonoj</message>
+	<message key="manager.reviewFormElements.required">Deviga kampor por reviziantoj</message>
+	<message key="manager.reviewFormElements.included">Aldoni al la mesaĝo al la verkantoj</message>
+	<message key="manager.reviewFormElements.smalltextfield">Unuvorta tekstkampo</message>
+	<message key="manager.reviewFormElements.textarea">Vasta tekstkampo</message>
+	<message key="manager.reviewFormElements.textfield">Unulinia tekstkampo</message>
+
+	<message key="manager.reviewForms.confirmDeleteUnpublished">Konfirmu la forviŝon de nepublikigita formularo...</message>
+
+ </locale>

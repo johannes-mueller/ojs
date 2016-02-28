@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the eo_EO Esperanto
+  *
+  * $Id$
+  -->
+ 
+<locale name="eo_EO" full_name="Esperanto">
+	<message key="plugins.block.user.displayName">Parto pri uzanto</message>
+	<message key="plugins.block.user.description">Tiu ĉi kromaĵo prizorgas la ilaron en la flanka breto por la uzantokonto, (ekz. ensaluti, elsaluti, profilo, ktp.)</message>
+	<message key="plugins.block.user.loggedInAs">Vi estas ensalutinta kiel...</message>
+	<message key="plugins.block.user.myJournals">Miaj revuoj</message>
+	<message key="plugins.block.user.myProfile">Mia profilo</message>
+	<message key="plugins.block.user.logout">Elsaluti</message>
+	<message key="plugins.block.user.signOutAsUser">Elsaluti kiel uzanto</message>
+	<message key="plugins.block.user.rememberMe">Memori min</message>
+</locale>

@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the eo_EO (Esperanto) locale.
+  *
+  -->
+
+<locale name="eo_EO" full_name = "Esperanto">
+	<!--
+	 * Diese Datei ist in einige größere Abschnitte gegliedert, die jeweils  
+	 *            durch Kommentare wie diesen voneinander getrennt sind. Diese Abschnitte sind:
+	 * ALLGEMEINES - Enthält häufig vorkommende Wörter
+	 * EINHEITEN - Enthält Bezeichnungen, die sich auf die Hauptbestandteile 
+	 *            des Systems beziehen, z.B. Artikel, Zeitschrift, Rubrik
+	 * OBERFLÄCHE - Enthält Wörter und Wortfolgen, die nach den Rubriken der 
+	 *           Benutzer/innenoberfläche gegliedert sind, in denen sie jeweils auftauchen 
+	 * PROTOKOLL - Enthält Wörter und Wortfolgen zu den Protokoll-Einträgen
+	 * VERSCHIEDENES - Enthält Einträge, die unter keinen der anderen Abschnitte fallen 
+	 * STANDARD - Enthält Standardeinstellungen für die Konfiguration.
+	-->
+	
+	<!-- review froms start -->
+
+	<!-- Journal Management -->
+
+	<!-- Categories -->
+	<message key="navigation.categories">Kategorioj</message>
+	<message key="navigation.categories.browse">Trarigardi</message>
+
+	<!--  peer review -->
+	<message key="submission.reviewForm">Reviziilo</message>
+	<message key="submission.reviewFormResponse">Respondo al revizio</message>
+
+	<message key="submission.event.logLevel">Nivelo</message>
+	<message key="submission.event.logLevel.info">Informoj</message>
+	<message key="submission.event.logLevel.notice">Notoj</message>
+	<message key="submission.event.logLevel.warning">Avertoj</message>
+	<message key="submission.event.logLevel.error">Eraroj</message>
+
+	<message key="reviewer.article.enterReviewForm">Alklaku la simbolon por plenumi la reviziilon.</message>
+	<message key="reviewer.article.reviewFormResponse.form.responseRequired">Bonvolu plenumi ĉiujn necesajn kampojn.</message>
+
+	<!-- review forms end -->
+
+	<!--
+	 *
+	 * Allgemeines - Dieser Abschnitt enthält häufig vorkommende Wörter
+	 *
+	-->
+
+	<!-- Allgemeine Meldungen -->
+	<message key="common.openJournalSystems">Open Journal Systems</message>
+	<message key="common.confirmComplete">Ĉu vi certas, ke vi volas marki la taskon kiel finitan? Poste ŝanĝoj ne plu eblos.</message>
+	<message key="common.payment">Pago</message>
+	<message key="common.payments">Pagoj</message>
+	<message key="common.pageHeader.altText">Kaplinio</message>
+	<message key="common.homePageHeader.altText">Kaplinio de la komenca paĝo</message>
+	<message key="common.journalHomepageImage.altText">Bildo sur la kaplinio de la komenca paĝo</message>
+
+	<!-- Standardmeldungen -->
+
+	<!-- Allgemeine E-Mail-Meldungen -->
+
+	<!-- Allgemeine Regionalisierungsbegriffe -->
+
+	<!-- Allgemeine Fehlermeldungen -->
+
+	<!-- Navigation -->
+	<message key="navigation.journalHelp">Navigadhelpo</message>
+	<message key="navigation.archives">Arkivo</message>
+	<message key="navigation.current">Aktuala numero</message>
+	<message key="navigation.otherJournals">Aliaj revuoj</message>
+	<message key="navigation.browseByIssue">Laŭ numero</message>
+	<message key="navigation.browseByAuthor">Laŭ verkanto</message>
+	<message key="navigation.infoForAuthors">Por verkantoj</message>
+	<message key="navigation.infoForLibrarians">Por libroservoj</message>
+	<message key="navigation.competingInterestGuidelines">Gvidlinioj por intereskonfliktoj</message>
+	<message key="navigation.infoForAuthors.long">Informoj por verkantoj</message>
+	<message key="navigation.infoForLibrarians.long">Informoj por libroservoj</message>
+
+	<!-- Beitragswartelisten -->
+	<message key="common.queue.long.submissionsUnassigned">Neasignitaj</message>
+	<message key="common.queue.short.submissionsUnassigned">Neasignitaj</message>
+	<message key="common.queue.long.submissionsInEditing">Redaktataj</message>
+	<message key="common.queue.short.submissionsInEditing">Redaktataj</message>
+	<message key="common.queue.long.submissionsInReview">Reviziataj</message>
+	<message key="common.queue.short.submissionsInReview">Reviziataj</message>
+	<message key="common.queue.long.submissionsArchives">Arkivo</message>
+	<message key="common.queue.short.submissionsArchives">Arkivo</message>
+	<message key="common.queue.long.active">Aktualaj kontribuoj</message>
+	<message key="common.queue.short.active">Aktualaj</message>
+	<message key="common.queue.long.completed">Arkivo</message>
+	<message key="common.queue.short.completed">Arkivo</message>
+
+	<!--
+	 *
+	 * EINHEITEN - Dieser Abschnitt enthält Bezeichnungen, die sich auf die Hauptbestandteile 
+	 *            des Systems beziehen, z.B. Artikel, Zeitschrift, Rubrik
+	 *
+	-->
+
+	<!-- Allgemeine Begriffe: Rubrik -->
+	<message key="section.section">Rubriko</message>
+	<message key="section.sections">Rubrikoj de la revuo</message>
+	<message key="section.title">Titolo de la Rubriko</message>
+	<message key="section.abbreviation">Mallongigo</message>
+	<message key="section.abbreviation.example">(ekzemple, artikolo=ART)</message>
+
+	<!-- Allgemeine Begriffe: Artikel -->
+	<message key="article.article">Artikolo</message>	
+	<message key="article.articles">Artikoloj</message>
+	<message key="article.submissionId">Kontribua ID</message>
+	<message key="article.title">Titolo</message>
+	<message key="article.authors">Verkanto(j)</message>
+	<message key="article.indexingInformation">Informoj por la indeksado</message>
+	<message key="article.metadata">Metadatumoj</message>
+	<message key="article.journalSection">Rubriko</message>
+	<message key="article.file">Dosiero</message>
+	<message key="article.suppFile">Kromdosiero</message>
+	<message key="article.suppFiles">Kromdosiero(j)</message>
+	<message key="article.suppFilesAbbrev">Kromdosieroj</message>
+	<message key="article.discipline">Akademia fakkampo kaj subkampoj</message>
+	<message key="article.subjectClassification">Kapvorta sistemo</message>
+	<message key="article.subject">Kapvortoj</message>
+	<!-- nefarite                         
+	<message key="article.coverage">Bereich</message>
+	<message key="article.coverageGeo">Geografisch-räumlicher Bereich</message>
+	<message key="article.coverageChron">(Historischer) Zeitraum</message>
+	<message key="article.coverageSample">Forschungssample</message>
+	<message key="article.type">Forschungsansatz, -methode oder -verfahren</message>
+-->
+	<message key="article.language">Lingvo</message>
+	<message key="article.sectionEditor">Redaktisto</message>
+	<message key="article.commentsToEditor">Komentoj de la verkanto</message>
+	<message key="article.submission">Kontribuo</message>
+	<message key="article.submissions">Kontribuoj</message>
+	<message key="article.details">Detaloj pri la artikoloj</message>
+	<message key="article.abstract">Resumo</message>
+	<message key="article.coverPage.altText">Titolbildo</message>
+	<message key="article.accessLogoOpen.altText">Malferma aliro</message>
+	<message key="article.accessLogoRestricted.altText">Limigita aliro</message>
+	<message key="article.comments.sectionDefault">Defaŭlto</message>
+	<message key="article.comments.disable">Malŝalti</message>
+	<message key="article.comments.enable">Enŝalti</message>
+	<message key="article.fontSize">Tipargrandeco</message>
+	<message key="article.fontSize.small.altText">Malgranda</message>
+	<message key="article.fontSize.medium.altText">Mezgranda</message>
+	<message key="article.fontSize.large.altText">Granda</message>
+	<!-- Verlauf - Allgemein -->
+	<message key="submission.submissionEditing">Redakta prilaboro de la kontribuo</message>
+	<message key="submission.changeSection">Ŝanĝi al</message>
+	<message key="submission.sent">Sendita</message>
+	<message key="submission.editorDecision">Decido de la redaktisto</message>
+	<message key="submission.round">Rondo {$round}</message>
+	<message key="submission.editorReview">Riviziado de la redaktisto</message>
+	<message key="submission.notifyAuthor">Sciigi verkanton</message>
+	<message key="submission.notifyEditor">Sciigi redaktiston</message>
+	<message key="submission.editorAuthorRecord">Protokolo de la retmesaĝa korespondo inter redaktisto kaj verkanto.</message>
+	<message key="submission.reviewersVersion">Versio de revizianto komentita</message>
+	<message key="submission.postReviewVersion">Reviziita versio</message>
+	<message key="submission.editorVersion">Versio de la redaktisto</message>
+	<message key="submission.authorsRevisedVersion">De verkanto reviziita versio</message>
+	<message key="submission.authorVersion">Versio de la verkanto</message>
+	<message key="submission.copyediting">Provlegado</message>
+	<message key="submission.copyedit">Provlegi</message>
+	<message key="submission.proofreading">Korektlegado</message>
+	<message key="submission.scheduling">Tempoplano</message>
+	<message key="submission.scheduledIn">Publikigota en {$issueName}.</message>
+	<message key="submission.scheduledIn.tba">(anonco sekvas)</message>
+	<message key="submissions.sec">Rubriko</message>
+	<message key="submissions.step1">1-a paŝo</message>
+	<message key="submissions.step3">3-a paŝo</message>
+	<message key="submissions.queuedReview">Reviziata</message>
+	<message key="submissions.scheduled">Planita</message>
+	<message key="submissions.submitted">Ensendita</message>
+	<message key="submissions.published">Publikigita</message>
+	<message key="submissions.initial">Komenca</message>
+	<message key="submissions.proofread">Korektlegita</message>
+	<message key="submissions.initialProof">Komenca korekto</message>
+	<message key="submissions.postAuthor">Sendi al verkanto.</message>
+	<message key="submissions.reviewRound">Revizia rondo</message>
+	<message key="submissions.proof">Korektado</message>
+	<message key="submissions.editorDecision">Redaktista decido</message>
+	<message key="submissions.editorRuling">Redaktista regulado</message>
+	<message key="submission.eventLog">Protokolo de la rezultoj</message>
+	<!-- Auflistung von Beiträgen Suchmaschine  -->
+	<message key="submissions.copyeditComplete">Provlegado plenumita</message>
+	<message key="submissions.layoutComplete">Enpaĝigo plenumita</message>
+	<message key="submissions.proofreadingComplete">Korektlegado plenumita</message>
+	<!-- Anmerkungen zu Einreichungen -->
+
+	<!-- Allgemeine Begriffe: Zeitschrift -->
+	<message key="journal.currentIssue">Aktuala numero</message>
+	<message key="journal.journals">Revuoj</message>
+	<message key="journal.path">Aliro</message>
+	<message key="journal.journal">Revuo</message>
+	<message key="journal.issn">ISSN</message>
+
+	<!-- Benutzer/in -->
+	<message key="user.showAllJournals">Montri ĉiujn revuojn</message>
+	<message key="user.registerForOtherJournals">Registriĝi por aliaj revuoj</message>
+	<message key="user.myJournals">Miaj revuoj</message>
+	<message key="user.manageMySubscriptions">Administri miajn abonojn</message>
+	<message key="user.noRoles.chooseJournal">Al via konto ne estas revuo asignita. Bonvolu elekti revuon:</message>
+	<message key="user.noRoles.noRolesForJournal">Al via konto ne estas roloj asignitaj. Bonvolu elekti rolon el la ĉi-subaj.</message>
+	<message key="user.noRoles.submitArticle">Fari proponon</message>
+	<message key="user.noRoles.submitArticleRegClosed">Fari proponon: La registrejo por verkantoj nuntempe estas nekativa.</message>
+	<message key="user.noRoles.regReviewer">Registriĝi kiel reviziisto.</message>
+	<message key="user.noRoles.regReviewerClosed">Registriĝi kiel reviziisto: La registrejo por reviziistoj nuntempe estas nekativa.</message>
+
+	<!-- Funktionen -->
+	<message key="user.role.manager">Revua administristo</message>
+	<message key="user.role.editor">Redaktisto</message>
+	<message key="user.role.sectionEditor">Rubrika redaktisto</message>
+	<message key="user.role.layoutEditor">Enpaĝigisto</message>
+	<message key="user.role.copyeditor">Provleganto</message>
+	<message key="user.role.proofreader">Kontrolleganto</message>
+	<message key="user.role.author">Verkanto</message>
+	<message key="user.role.subscriptionManager">Administristo de abonoj</message>
+	<message key="user.role.managers">Revuaj administristoj</message>
+	<message key="user.role.editors">Redaktistoj</message>
+	<message key="user.role.sectionEditors">Rubrikaj redaktistoj</message>
+	<message key="user.role.layoutEditors">Enpaĝigistoj</message>
+	<message key="user.role.copyeditors">Provlegantoj</message>
+	<message key="user.role.proofreaders">Kontrollegantoj</message>
+	<message key="user.role.authors">Verkantoj</message>
+	<message key="user.role.subscriptionManagers">Administristoj de abonoj</message>
+
+	<message key="user.orcid">ORCID-iD</message>
+	<message key="user.orcid.description">
+	  <![CDATA[ORCID-iDoj estas identigiloj eldonataj de <a
+	  href="http://orcid.org/" target="_blank">la ORCID-asocio</a>. Se vi
+	  havas tian identigilon vi povas enmeti ĝin laŭ la maniero de
+	  ORCID-iDoj per la plena URI
+	  (ekzemple. <em>http://orcid.org/0000-0002-1825-0097</em>)]]>
+	</message>
+	<message key="user.profile.form.orcidInvalid">
+	  La ORCID-iD estas nevalida.
+	</message>
+
+
+	<!-- Allgemeine Begriffe: Ausgabe -->
+	<message key="issue.issue">Eldono</message>
+	<message key="issue.issues">Eldonoj</message>
+	<message key="issue.title">Titolo</message>
+	<message key="issue.volume">Volumo</message>
+	<message key="issue.number">Numero</message>
+	<message key="issue.vol">vol.</message>
+	<message key="issue.no">nr-o.</message>
+	<message key="issue.year">Jaro</message>
+	<message key="issue.noIssues">Neniuj eldono</message>
+	<message key="issue.toc">Enhavo</message>
+	<message key="issue.abstract">Resumo</message>
+	<message key="issue.coverPage.altText">Titolpaĝo</message>
+	<message key="issue.fullIssue">Kompleta eldono</message>
+	<message key="issue.nonpdf.title">Elŝuti eldonon</message>
+	<message key="issue.viewIssue">Rigardi eldonon</message>
+	<message key="issue.viewIssueDescription">Rigardi aŭ elŝuti kompletan eldonon</message>
+
+
+	<!-- Allgemeine Begriffe: Abonnementarten -->
+	<message key="subscriptionTypes.currency">Valuto</message>
+	<message key="subscriptionTypes.year">Jaro</message>
+	<message key="subscriptionTypes.years">Jaroj</message>
+	<message key="subscriptionTypes.month">Monato</message>
+	<message key="subscriptionTypes.months">Monatoj</message>
+	<message key="subscriptionTypes.nonExpiring">Ne finiĝas</message>
+	<message key="subscriptionTypes.format">Formato</message>
+	<message key="subscriptionTypes.format.online">Reta</message>
+	<message key="subscriptionTypes.format.print">Papera</message>
+	<message key="subscriptionTypes.format.printOnline">Papera kaj reta</message>
+
+	<!-- Allgemeine Begriffe: Abonnement -->
+	<message key="subscriptions.inactive">Ne aktivaj</message>
+	<message key="subscriptions.status">Stato</message>
+	<message key="subscriptions.status.active">Aktivaj</message>
+	<message key="subscriptions.status.needsInformation">Informoj necesaj</message>
+	<message key="subscriptions.status.needsApproval">Aprobo necesa</message>
+	<message key="subscriptions.status.awaitingManualPayment">Atendi permanan pagon</message>
+	<message key="subscriptions.status.awaitingOnlinePayment">Atendi perretan pagon</message>
+	<message key="subscriptions.status.other">Alia, vidu indokon</message>
+	<message key="subscriptions.individualDescription">
+	  Por individuaj abonoj necesas ensaluti por rigardi enhavojn.
+	</message>
+	<message key="subscriptions.institutionalDescription">
+	  Por institutaj abonoj ne necesas ensaluti. La domajno aŭ la IP-areo estas uzata por akiri la enhavojn.
+	</message>
+	<message key="subscriptions.institutionalOnlinePaymentDescription">
+	  <![CDATA[<strong>Indiko:</strong> Por perrete aĉetitaj
+	  institutaj abonoj la aprobo de la domajno kaj la IP-areo
+	  necesas por aktivigi la abonon.]]>
+	</message>
+
+	<message key="reader.subscribersOnly">Nur por abonantoj</message>
+	<message key="reader.subscriptionRequiredLoginText">
+	  Por la aliro necesas abono. Por konfirmi vian abonon ensalutu ĉe la revuo.
+	</message>
+	<message key="reader.openAccess">Malferma aliro</message>
+	<message key="reader.subscriptionAccess">Aliro por abonantoj</message>
+	<message key="reader.subscriptionOrFeeAccess">
+	  Aliro por abonantoj pagintaj
+	</message>
+	<message key="comments.commentsOnArticle">Komentoj pri tiu ĉi artikolo</message>
+	<message key="comments.authenticated">{$userName} </message>
+
+
+	<!--
+	 *
+	 * PROTOKOLL - Dieser Abschnitt enthält Wörter und Wortfolgen zu den Protokoll-Einträgen.
+	 *
+	-->
+	<!-- nefarite
+	<message key="submission.event.general.defaultEvent">Neuzugang</message>
+	<message key="submission.event.general.articleSubmitted">Artikel eingegangen</message>
+	<message key="submission.event.general.issueScheduled">Beitrag an die Warteliste für die Ausgabenplanung geschickt</message>
+	<message key="submission.event.general.issueAssigned">Beitrag einer Ausgabe zugewiesen</message>
+	<message key="submission.event.general.articlePublished">Artikel veröffentlicht</message>
+
+	<message key="submission.event.author.authorRevision">Bearbeitung durch Autor/in eingegangen</message>
+
+	<message key="submission.event.general.authorRevision">Revisionsdatei durch Autor/in aktualisiert</message>
+
+	<message key="submission.event.editor.editorAssigned">Beitrag einer Redakteurin/einem Redakteur zugeteilt</message>
+	<message key="submission.event.editor.editorUnassigned">Redakteur/in nicht länger für den Beitrag zuständig</message>
+	<message key="submission.event.editor.editorDecision">Entscheidung der Redakteurin/des Redakteurs eingegangen</message>
+	<message key="submission.event.editor.editorFile">Datei aktualisiert</message>
+	<message key="submission.event.editor.submissionArchived">Beitrag ans Archiv geschickt</message>
+	<message key="submission.event.editor.submissionRestored">Beitrag aus dem Archiv wiederhergestellt</message>
+
+
+
+	<message key="submission.event.proofread.proofreaderAssigned">Beitrag einer Korrekturlektorin/einem Korrekturlektor zugeteilt</message>
+	<message key="submission.event.proofread.proofreaderUnassigned">Korrekturlektor/in nicht länger für den Beitrag zuständig</message>
+	<message key="submission.event.proofread.proofreadInitiated">Korrekturlektorat für Beitrag veranlasst</message>
+	<message key="submission.event.proofread.proofreadRevision">Bearbeitungsdatei der Korrekturlektorin/des Korrekturlektors aktualisiert</message>
+	<message key="submission.event.proofread.proofreadCompleted">Korrekturlektorat abgeschlossen</message>
+
+	<message key="submission.event.layout.layoutEditorAssigned">Beitrag einer Layoutredakteurin/einem Layoutredakteur zugeteilt</message>
+	<message key="submission.event.layout.layoutEditorUnassigned">Layoutredakteur/in nicht länger für den Beitrag zuständig</message>
+	<message key="submission.event.layout.layoutInitiated">Layout für Beitrag veranlasst</message>
+	<message key="submission.event.layout.layoutGalleyCreated">Layoutfahne erstellt</message>
+	<message key="submission.event.layout.layoutComplete">Layout abgeschlossen</message>
+	nf-->
+	<!--
+	 *
+	 * OBERFLÄCHE - Enthält Wörter und Wortfolgen, die nach den Rubriken der Benutzer/innenoberfläche gegliedert sind, 
+	 *                         in denen sie jeweils auftauchen 
+	 *
+	-->
+
+	<!-- Beitrag Leser/innenzugang  -->
+
+	<!-- Verwaltung der Website -->
+
+	<!-- nefarite 
+	<message key="admin.settings.oaiRegistrationDescription"><![CDATA[Um den Inhalt aller von dieser Website angebotenen Zeitschriften bei einem allgemein verbreiteten System von Forschungsdatenbanken zu indizieren, <a href="http://pkp.sfu.ca/harvester/add.php" target="_blank">registrieren Sie</a> die URL Ihrer Website beim Metadaten-Harvester des Public Knowledge Project <a href="http://pkp.sfu.ca/harvester/" target="_blank"></a>. Der Harvester sammelt die Metadaten jedes indizierten Artikels dieser Zeitschrift und macht somit eine umfassende und genaue Suche auf allen Forschungs-Webseiten, die sich an dem Projekt <a href="http://www.openarchives.org/OAI/openarchivesprotocol.htm#Introduction" target="_blank"> Open Archives Initiative Protocol for Metadata Harvesting</a> beteiligen.
+<br /><br />
+<a href="http://pkp.sfu.ca/harvester/add.php" target="_blank">Klicken Sie hier</a> und geben Sie <span class="highlight">{$siteUrl}</span>unter <strong>URL der Website</strong>, und <span class="highlight">{$oaiUrl}</span> unter <strong>Basis-URL für OAI (Open Access Archives)</strong> ein.
+<br /><br />
+Bitte beachten Sie, dass die OAI-Schnittstelle für diese Website in der OJS-Systemkonfiguration deaktiviert werden kann. Zukünftige Versionen von OJS werden es ermöglichen, die Aktivierung der OAI-Schnittstelle für jede einzelne Zeitschrift einer Website zu regeln.]]></message>
+-->
+
+	<!-- Über uns -->
+	<message key="about.statistics">Statistikoj</message>
+	<message key="about.journalContact">Kontakti la ISAEn</message>
+	<message key="about.aboutTheJournal">Pri ISAE</message>
+	<message key="about.history">Historio</message>
+	<message key="about.editorialTeam">Redaktistaro</message>
+	<message key="about.editorialTeam.biography">Vivresumoj</message>
+	<message key="about.editorialPolicies">Gvidlinioj kaj publikiga procezo</message>
+	<message key="about.focusAndScope">Koncepto</message>
+	<message key="about.sectionPolicies">Rubrikaj gvidlinioj</message>
+	<message key="about.submissions">Ensendi kontribuon</message>
+	<message key="about.sponsors">Subteni finance</message>
+	<message key="about.contributors">Subteni alimanjere</message>
+	<message key="about.onlineSubmissions">Ensendi kontribuon elektronike</message>
+	<message key="about.onlineSubmissions.haveAccount">Ĉu vi jam havas uzantnomon kaj pasvortoj por {$journalTitle}?</message>
+	<message key="about.onlineSubmissions.login">Ensaluti</message>
+	<message key="about.onlineSubmissions.needAccount">Ĉu vi bezonas uzantnomon kaj pasvorton?</message>
+	<message key="about.onlineSubmissions.registration">Registriĝi</message>
+	<message key="about.onlineSubmissions.registrationRequired">Vi devas esti ensalutinta por ensendi kontribuon kaj kontroli la progreson de via kontribuo.</message>
+	<message key="about.authorGuidelines">Gvidlinioj por verkantoj</message>
+	<message key="about.subscriptions">Abonoj</message>
+	<message key="about.subscriptions.individual">Individuaj abonoj</message>
+	<message key="about.subscriptions.institutional">Institutaj abonoj</message>
+	<message key="about.subscriptionsContact">Kontakto por abonoj</message>
+	<message key="about.subscriptionTypes.name">Nomo</message>
+	<message key="about.subscriptionTypes.format">Formato</message>
+	<message key="about.subscriptionTypes.duration">Daŭro</message>
+	<message key="about.subscriptionTypes.cost">Kotizoj</message>
+	<message key="about.availableSubscriptionTypes">Specoj de abonoj</message>
+	<message key="about.memberships">Membrecoj</message>
+
+	<message key="about.delayedOpenAccess">Prokrastita malferma aliro</message>
+	<message key="about.delayedOpenAccessDescription1">
+	  La enhavo de tiu ĉi revuo aperas libere alireabla
+	</message>
+	<message key="about.delayedOpenAccessDescription2">
+	  monatojn post apero de numero
+	</message>
+
+	<message key="about.aboutThisPublishingSystem">Pri tiu ĉi eldonsistemo</message>
+	<message key="about.aboutThisPublishingSystem.altText">Redakta kaj eldona procezo per OJS</message>
+	<message key="about.journalSponsorship">Subteno</message>
+	<message key="about.copyrightNotice">Noto pri kopirajto</message>
+
+
+	<!-- permesilo -->
+	<message key="submission.permissions">Rajtoj</message>
+	<message key="submission.license">Permesilo</message>
+	<message key="submission.copyright">Kopirajto</message>
+	<message key="submission.copyrightHolder">Kopirajta persono</message>
+	<message key="submission.copyrightYear">Kopirajta jaro</message>
+	<message key="submission.copyrightStatement">Kopirajto (c) {$copyrightYear} {$copyrightHolder}</message>
+	<message key="submission.licenseURLValid">
+	  Bonvolu enigi validan URLn (inklusive http://).
+	</message>
+	<message key="submission.licenseURL">Permesila URL</message>
+	<message key="submission.license.cc.by-nc-nd4">CC Atribuite – Nekomerce – Nemodifite 4.0</message>
+	<message key="submission.license.cc.by-nc4">CC Atribuite – Nekomerce 4.0</message>
+	<message key="submission.license.cc.by-nc-sa4">CC Atribuite – Nekomerce – Samkondiĉe 4.0</message>
+	<message key="submission.license.cc.by-nd4">CC Atribuite – Nemodifite 4.0</message>
+	<message key="submission.license.cc.by4">CC Atribuite 4.0</message>
+	<message key="submission.license.cc.by-sa4">CC Atribuite - Samkondiĉe 4.0</message>
+	<message key="submission.license.cc.by-nc-nd4.footer">
+	  <![CDATA[ <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.eo"><img
+	  alt="Krea komunaĵa permesilo" style="border-width:0"
+	  src="http://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br
+	  />Tiu ĉi verko estas distibruata laŭ la permesilo <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+	  Krea komunaĵa Atribuite – Nekomerce — Nemodifite 4.0 Interncia</a>.]]>
+	</message>
+	<message key="submission.license.cc.by-nc4.footer">
+	  <![CDATA[ <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nc/4.0/deed.eo"><img
+	  alt="Krea komunaĵa permesilo" style="border-width:0"
+	  src="http://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br
+	  />Tiu ĉi verko estas distibruata laŭ la permesilo <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+	  Krea komunaĵa Atribuite – Nekomerce 4.0 Interncia</a>.]]>
+	</message>
+	<message key="submission.license.cc.by-nc-sa4.footer">
+	  <![CDATA[ <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.eo"><img
+	  alt="Krea komunaĵa permesilo" style="border-width:0"
+	  src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br
+	  />Tiu ĉi verko estas distibruata laŭ la permesilo <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+	  Krea komunaĵa Atribuite – Nekomerce — Samkondiĉe 4.0 Interncia</a>.]]>
+	</message>
+	<message key="submission.license.cc.by-nd4.footer">
+	  <![CDATA[ <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nd/4.0/deed.eo"><img
+	  alt="Krea komunaĵa permesilo" style="border-width:0"
+	  src="http://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br
+	  />Tiu ĉi verko estas distibruata laŭ la permesilo <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+	  Krea komunaĵa Atribuite — Nemodifite 4.0 Interncia</a>.]]>
+	</message>
+	<message key="submission.license.cc.by4.footer">
+	  <![CDATA[ <a rel="license"
+	  href="http://creativecommons.org/licenses/by/4.0/deed.eo"><img
+	  alt="Krea komunaĵa permesilo" style="border-width:0"
+	  src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br
+	  />Tiu ĉi verko estas distibruata laŭ la permesilo <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+	  Krea komunaĵa Atribuite 4.0 Interncia</a>.]]>
+	</message>
+	<message key="submission.license.cc.by-sa4.footer">
+	  <![CDATA[ <a rel="license"
+	  href="http://creativecommons.org/licenses/by-sa/4.0/deed.eo"><img
+	  alt="Krea komunaĵa permesilo" style="border-width:0"
+	  src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br
+	  />Tiu ĉi verko estas distibruata laŭ la permesilo <a rel="license"
+	  href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+	  Krea komunaĵa Atribuite – Samkondiĉe 4.0 Interncia</a>.]]>
+	</message>
+
+	<message key="about.submissionPreparationChecklist">
+	  Kontrollisto por ensendoj
+	</message>
+	<message key="about.submissionPreparationChecklist.description">
+	  Ni petas la verkantojn trairi la kontrolliston por ensendoj kaj
+	  apliki eron post ero.
+	</message>
+
+	<message key="about.privacyStatement">Protekto de personaj datumoj</message>
+	<message key="about.authorFees">Kotizoj por verkantoj</message>
+	<message key="about.authorFeesMessage">
+	  Tiu ĉi revuo postulas la jenajn kotizojn de la verkantoj.
+	</message>
+	<message key="about.peerReviewProcess">Kolega reviziado</message>
+	<message key="about.publicationFrequency">Eldona ofteco</message>
+	<message key="about.openAccessPolicy">Gvidlinioj pri malferma aliro</message>
+	<message key="about.authorSelfArchive">Arkivado fare de reviziantoj</message>
+	<message key="about.archiving">Arkivado</message>
+
+	<message key="about.aboutOJSJournal">
+	  <![CDATA[Tiu ĉi revuo uzas Open Journal Systems {$ojsVersion},
+	  programaĵon malfermfontan por publikigado de revuoj. Ĝi estas
+	  evoluigata kaj laŭ GPL distribuata fare de la <a
+	  href="http://pkp.sfu.ca/">Public Knowledge Project</a>.]]>
+	</message>
+	<message key="about.aboutOJSSite">
+	  <![CDATA[Tiu ĉi retejo uzas Open Journal Systems {$ojsVersion},
+	  programaĵon malfermfontan por publikigado de revuoj. Ĝi estas
+	  evoluigata kaj laŭ GPL distribuata fare de la <a
+	  href="http://pkp.sfu.ca/">Public Knowledge Project</a>.]]>
+	</message>
+
+	<!-- Serĉado -->
+	<message key="search.browseAuthorIndex">Trafoliumi liston de verkantoj</message>
+	<message key="search.searchFor">Traserĉi artikolojn por</message>
+	<message key="search.author">Verkanto</message>
+	<message key="search.withinJournal">En</message>
+	<message key="search.allJournals">ĉiuj revuoj</message>
+	<message key="search.authorIndex">Traserĉi liston de verkantoj</message>
+	<message key="search.authorDetails">Detaloj pri verkantoj</message>
+	<message key="search.syntaxInstructions"><![CDATA[Indikoj por serĉado: <ul>
+<li>Uskleco ne estas konsiderata.</li>
+<li>Oftaj vortoj estas ignorataj</li>
+<li>Defaŭlte nur artikoloj kun <em>ĉiuj</em> serĉvortoj estas listigataj (implicita <em>KAJ</em>)</li>
+<li>Pluraj serĉvortoj ligitaj per <em>AŬ</em> trovas artikolojn kuj enhavas la unuan aŭ/kaj la alian vorton, ekz. <em>edukado AŬ esplorado.</em> (AŬ devas esti en unikodo.)</li>
+<li>Uzu krampojn por kompleksa serĉado, ekz. <em>arkivo ((revuo AŬ prelego) NE disertacio)</em>.</li>
+<li>Por serĉi ekzaktan vortsekvon uzu citilojn, ekz. <em>"prelegas en Esperanto"</em>.</li>
+<li>Por ekzkludi vorton, antaŭmetu <strong>-</strong> aŭ <em>NE</em>, ekz. <em>ekologio -nuklea</em> aŭ <em>ekologio NE nuklea</em>
+<li>Uzu <strong>*</strong> kiel ĵokeron por ajnaj litersekvoj, ekz. <em>ekologi*</em> trovas kaj "ekologio" kaj "ekologion" kaj "ekologia" ktp.</li>
+</ul>]]></message>
+
+
+	<!-- Indekso: aktuala numero -->
+	<message key="current.current">Aktuala eldono</message>
+	<message key="current.noCurrentIssue">Neniu aktuala eldono</message>
+	<message key="current.noCurrentIssueDesc">De la revuo ankroaŭ ne aperis eldonoj.</message>
+
+	<!-- Indekso: Arkivo -->
+	<message key="archive.archives">Arkivo</message>
+	<message key="archive.browse">Traserĉi antaŭajn numerojn</message>
+	<message key="archive.issueUnavailable">Eldono ne disponebla</message>
+
+	<!-- Ensaluto -->
+	<message key="user.login.registerNewAccount">Ankoraŭ ne registrita? Registriĝu.</message>
+	<message key="user.login.resetPasswordInstructions">
+	  <![CDATA[Pro sekureco la sistemo ĉiam retsendas al
+	  registritaj uzantoj novan pasvorton anstataŭ la aktualan
+	  pasvorton.<br /><br /> Entajpu por renovigi vian pasvorton
+	  ĉi-sube vian retpoŝtadreson. La konfirmo estos sendata al
+	  tiu adreso.]]></message>
+
+
+	<!-- Registrado -->
+	<message key="user.register.repeatPassword">Ripetu la pasvorton</message>
+	<message key="user.register.selectJournal">
+	Elektu la revuon, por kiu vi volas registriĝi.</message>
+	<message key="user.register.privacyStatement">Protekto de personaj datumoj</message>
+	<message key="user.register.form.passwordLengthTooShort">La pasvorto estas tro mallonga.</message>
+	<message key="user.register.readerDescription">Vi estos perretmesaĝe informata pri novaj eldonoj de la revuo.</message>
+	<message key="user.register.openAccessNotificationDescription">
+	  Vi estos perretmesaĝe informata, kiam eldono de la revuo estos alirebligata libere.</message>
+	<message key="user.register.authorDescription">Vi povas ensendi kontribuojn al la revuo.</message>
+	<message key="user.register.reviewerDescriptionNoInterests">Vi pretas revizi ensenditajn kontribuojn.</message>
+	<message key="user.register.reviewerDescription">Vi pretas revizi ensenditajn kontribuojn. Bonvolu anonci vian interesfakojn.</message>
+	<message key="user.register.reviewerInterests">Anonco de interesoj por reviziado:</message>
+	<message key="user.register.notAlreadyRegisteredOtherJournal"><![CDATA[<a href="{$registerUrl}">Klaku ĉi-tie</a>, se vi <strong>ankoraŭ ne</strong> estas registrita por tiu ĉu aŭ alia revuo sur tiu ĉi paĝaro.]]></message>
+	<message key="user.register.alreadyRegisteredOtherJournal"><![CDATA[<a href="{$registerUrl}">Klaku ĉi-tien</a>, se vi jam estas registrita por tiu ĉi aŭ alia revuo sur tiu ĉi paĝaro.]]></message>
+	<message key="user.register.loginToRegister">
+	  Entajpu vian ekzistantan uzantnomon kaj vian aktualan pasvorton por registriĝi por tiu ĉi revuo.</message>
+	<message key="user.register.registrationDisabled">Nuntempe la revuo ne akceptos novajn aliĝojn</message>
+
+	<!-- Sciigoj -->
+	<message key="notification.mailListDescription">
+	  Enitajpu vian retpoŝadreson, se vi volas esti informata pri novaj enhavoj de tiu revuo
+	</message>
+	<message key="notification.notificationsPublicDescription">
+	  <![CDATA[Sur tiu ĉi paĝo vi trovas ĝisdatigojn kiel novajn
+	  eldonojn kaj anoncojn. Vi povas aboni tiajn sciigojn kiel
+	  RSS-fluon (per alklaki la bildetojn ĉi dekstrajn) aŭ <a
+	  href="$emailURL">per retpoŝto</a>]]>
+	</message>
+	<message key="notification.type.articleSubmitted">Nova kontribuo, "{$param}" estis ensendata.</message>
+	<message key="notification.type.copyeditComment">Provleganto komentis pri "{$param}".</message>
+	<message key="notification.type.editing">Redakciaj rezultoj</message>
+	<message key="notification.type.editorDecisionComment">Decido de redaktanto pri "{$param}" estis komentata.</message>
+	<message key="notification.type.galleyModified">Korektekzemplo pri "{$param}" estis ŝanĝata."</message>
+	<message key="notification.type.issuePublished">Eldnono publikiĝis</message>
+	<message key="notification.type.layoutComment">La enpaĝigo "{$param}" estis komentata.</message>
+	<message key="notification.type.metadataModified">La metadatumoj de "{$param}" estis ŝanĝataj.</message>
+	<message key="notification.type.newAnnouncement">Nova anonco eldoniĝis.</message>
+	<message key="notification.type.proofreadComment">Korektleganto komentis pri "{$param}".</message>
+	<message key="notification.type.reviewerComment">Revizianto komentis pri "{$param}".</message>
+	<message key="notification.type.reviewerFormComment">Revizia formularo stariĝis por "{$param}".</message>
+	<message key="notification.type.reviewing">Rezultoj de la Reviziado</message>
+	<message key="notification.type.site">Novaĵoj pri la paĝaro</message>
+	<message key="notification.type.submissionComment">Redaktisto komentis pri "{$param}".</message>
+	<message key="notification.type.submissions">Kontribuaj okazoj</message>
+	<message key="notification.type.suppFileModified">La kromdosiero(j) de "{$param}" estis ŝanĝataj</message>
+	<message key="notification.type.userComment">Leganto komentis pri "{$param}".</message>
+
+
+	<!-- Rubrika redaktanto -->
+
+	<message key="sectionEditor.regrets">Malakceptoj</message>
+	<message key="sectionEditor.regrets.link">Montri malakceptoj, nuligoj, antaŭaj rondoj</message>
+	<message key="sectionEditor.regrets.reviewRound">Kolega revizio, rondo {$cycle}</message>
+	<message key="sectionEditor.regrets.decisionRound">Redakcia decido, rondo {$cycle}</message>
+	<message key="sectionEditor.regrets.regretsAndCancels">Malakceptoj per reviziantoj &amp; Nuligoj</message>
+	<message key="sectionEditor.regrets.regret">Malakcepto</message>
+	<message key="sectionEditor.regrets.result">Rezulto</message>
+	<message key="sectionEditor.review.enrollReviewer">Enigu ekzistan uzanton kiel revizianton.</message>
+
+	<!-- Redakcio -->
+	<message key="editor.submissionReview.notes">
+	  <![CDATA[<ol>
+		     <li>Emfazitaj eroj indikas, ke ago de la redaktistaro necesas.</li>
+		     <ul>
+		       <li> 
+		       "Limdato" aperas, kiam revizianto akceptis la revizian taskon;
+		       montriĝas la nombro de semajnoj ĝis la limdato de la revizio aŭ (-)
+		       semajnoj se la revizio malfruiĝas.
+		       </li>
+		     </ul></li>
+		   </ol>]]>
+	</message>
+	<message key="editor.submissionEditing.notes">
+	<![CDATA[<ol>
+		 <li>Emfazitaj eroj indikas, ke ago de la redaktistaro necesas.</li>
+		 <ul>
+		        <li class="highlightCopyediting">Provlegado necesas.</li>
+			<li class="highlightLayoutEditing">Enpaĝigo necesas.</li>
+			<li class="higlightProofreading">Korektlegado necesas.</li>
+		</ul>
+		</li>
+	</ol>]]></message>
+
+
+	<!-- Rubrika redaktisto -->
+	<message key="sectionEditor.activeEditorialAssignments">Aktualaj redakciaj taskoj</message>
+	<message key="sectionEditor.completedEditorialAssignments">Kompletigitaj redakciaj taskoj</message>
+	<message key="sectionEditor.noneAssigned">Neniuj redakciaj taskoj asignitaj</message>
+	<message key="sectionEditor.copyedit.confirmRenotify">
+	  Se vi resciigas tiun provleganton, la provlegado rekomenciĝos. Ĉu vi certas, ke vi volas tion?
+	</message>
+	<message key="sectionEditor.author.confirmRenotify">
+	  Se vi resciigas tiun verkanto, ties tasko rekomenciĝos. Ĉu vi certas, ke vi volas tion?
+	</message>
+	<message key="sectionEditor.layout.confirmRenotify">
+	  Se vi resciigas la enpaĝigiston, ties tasko rekomenciĝos. Ĉu vi certas, ke vi volas tion?
+	</message>
+	<message key="sectionEditor.proofreader.confirmRenotify">
+	  Se vi resciigas la korektlegnaton, ties tasko rekomenciĝos. Ĉu vi certas, ke vi volas tion?
+	</message>
+
+	<message key="sectionEditor.regrets.breadcrumb">Malakceptoj</message>
+	<message key="sectionEditor.regrets.title">
+	  Malakceptoj flanke de reviziantoj, rezignoj kaj antaŭaj rondoj
+	</message>
+	<message key="sectionEditor.review.createReviewer">Krei novan revizianton</message>
+
+	<message key="editor.article.selectReviewerNotes">
+	  <![CDATA[
+	  La nomo celas la profilon de la revizianto<br/>
+	  La pritakso okazos laŭ skalo de 1 ĝis 5 (eminenta).<br/>
+	  "Semajnoj" rilatas al la averaĝa tempo bezonata por la ekspertizo.<br/>
+	  "Laste" rilatas al la akceptodato de la lasta tasko.<br/>
+	  "Aktiva" rilatas al la nombro de la aktualaj (t.e. aktivaj) aŭ konsiderataj taskoj]]>
+	</message>
+
+	<!-- Revizianto -->
+	<message key="reviewer.pendingReviews">Reviziataj artikoloj</message>
+	<message key="reviewer.completedReviews">Kompletigitaj revizioj</message>
+	<message key="reviewer.averageQuality">Ekspertizon</message>
+
+	<!-- revizianta decido -->
+	<message key="reviewer.article.decision.accept">Akcepti</message>
+	<message key="reviewer.article.decision.pendingRevisions">Redaktado necesa</message>
+	<message key="reviewer.article.decision.resubmitHere">Denove ensendi por reviziado</message>
+	<message key="reviewer.article.decision.resubmitElsewhere">Ensendi aliloke</message>
+	<message key="reviewer.article.decision.decline">Malakcepti</message>
+	<message key="reviewer.article.decision.seeComments">Vidu komentojn</message>
+
+	<message key="reviewer.article.fileToBeReviewed">Revizienda dosiero</message>
+	<message key="reviewer.article.notifyTheEditor">Sciigi redaktiston</message>
+	<message key="reviewer.article.canDoReview">Transprenos revizian taskon</message>
+	<message key="reviewer.article.cannotDoReview">Ne transprenos revizian taskon</message>
+	<message key="reviewer.article.restrictedFileAccess">
+	  La kontribuo estos disponebligata post kiam la revizianto konsentis.
+	</message>
+	<message key="reviewer.article.submissionEditor">Respondeca redaktisto</message>
+	<message key="reviewer.article.reviewerCommentsDescription">Eniguu ĉi tie reviziajn komentojn</message>
+	<message key="reviewer.article.editorToEnter">Enigenda fare de redaktisto</message>
+	<message key="reviewer.article.sendReminder">Sendu memorigon</message>
+	<message key="reviewer.article.automatic">(aŭtomate)</message>
+	<message key="reviewer.article.recommendation">Rekomendo</message>
+	<message key="reviewer.article.submitReview">Sendi ekspertizon al redaktistaro</message>
+	<message key="reviewer.article.reviewerComments">Komentoj</message>
+	<message key="reviewer.article.uploadedFile">Alŝutitaj dosieroj</message>
+	<message key="reviewer.article.reviewersAnnotatedVersion">Versio alŝutita de revizianto</message>
+	<message key="reviewer.article.reviewersAnnotatedVersionDescription">
+	  (Se vi volas komenti la dosieron por la redaktisto, konservu ĝin sur via disko kaj uzu "Alŝuti".)
+	</message>
+	<message key="reviewer.article.schedule.request">Peto de la redaktisto</message>
+	<message key="reviewer.article.schedule.response">Via respondo</message>
+	<message key="reviewer.article.schedule.submitted">Ekspertizo ensendita</message>
+	<message key="reviewer.article.schedule.due">Ekspertizon ensendenda</message>
+	<message key="reviewer.article.schedule">Tempoplano</message>
+	<message key="reviewer.article.submissionToBeReviewed">Revizienda artikolo</message>
+	<message key="reviewer.article.reviewSchedule">Tempoplano por la reviziado</message>
+	<message key="reviewer.article.reviewSteps">Paŝoj por la reviziado</message>
+	<message key="reviewer.article.reviewerGuidelines">Richtlinien für die Gutachter/innen</message>
+	<message key="reviewer.article.notifyEditorA">Sciigi la redaktiston,</message>
+	<message key="reviewer.article.notifyEditorB">ĉu vi volas transpreni la revizian taskton.</message>
+
+	<message key="reviewer.article.enterReviewA">Alklaku la simbolon por enigi vian ekspertizon.</message>
+	<message key="reviewer.article.uploadFile">
+	  Aldone vi povas alŝuti doierojn por la redaktisto kaj/aŭ la verkanto.
+	</message>
+	<message key="reviewer.article.selectRecommendation">
+	  Elektu rekomendon kaj ensendu vian ekspertizon por fini la
+	  revizian procezon. Vi devas aŭ entajpi la ekspertizon aŭ
+	  alŝuto dosieron, antaŭ ol elekti rekomendon.
+	</message>
+	<message key="reviewer.article.mustSelectDecision">
+	  Neniu rekomendo elektita. Vi devas al via ekspertizo aldoni rekomendon.
+	</message>
+	<message key="reviewer.article.confirmDecision">
+	  Kiam vi donis rekomendon, vi ne plu povas ŝanĝi vian ekspertizon. Ĉu vi certas ke vi volas daŭrigi?
+	</message>
+	<message key="reviewer.article.ensuringBlindReview">Certigi anoniman ekspertizon.</message>
+
+	<message key="reviewer.article.consultGuidelines">
+	  Se vi volas fari reviziadon, legu la jenajn instrukciojn por reviziantoj.
+	</message>
+	<message key="reviewer.article.downloadSubmission">
+	  Por elŝuti kaj revizii la kontribuaĵajn dosierojn alklaku la doiernomojn
+	</message>
+	<message key="reviewer.article.reviewGuidelinesDescription">
+	  La reviziadaj gvidlinioj donas kriteriojn al la reviziantoj,
+	  por ke ili povu decidi, ĉu la kontribuo taŭgas por publikigo
+	  en la revuo. Vi povas ricevi aldonajn instrukciojn, kiuj
+	  utilas por pli efika kaj helpa reviziado. Por la ensendo de
+	  ekspertizo reviziantoj disponas du liberajn tekstkampojn;
+	  unu "por verkantoj kaj redaktistoj" kaj alia "por
+	  redaktistoj". 
+	</message>
+	<message key="reviewer.article.enterCompetingInterests"></message>
+	<message key="reviewer.competingInterests"></message>
+
+	<message key="submission.copyedit.mustUploadFileForInitialCopyedit">
+	  La retmesaĝa peto povas esti sendata nur post kiam dosiero
+	  sur la revizia paĝo ĉe "redaktista decido" estis elektata
+	  por provlegado.
+	</message>
+	<message key="submission.copyedit.mustUploadFileForCopyedit">
+	  La retmesaĝa peto povas esti sendata nur post kiam dosiero
+	  estis alŝutata por provlegado.
+	</message>
+	<message key="submission.copyedit.initialCopyedit">Unua provlegado</message>
+	<message key="submission.copyedit.editorsCopyedit">Provlegado fare de redaktisto</message>
+	<message key="submission.copyedit.editorAuthorReview">Provlegado fare de verkanto</message>
+	<message key="submission.copyedit.finalCopyedit">Fina provlegado</message>
+	<message key="submission.copyedit.copyeditVersion">Provlegita versio</message>
+	<message key="submission.copyedit.selectCopyeditor">Asigni provleganton</message>
+	<message key="submission.copyedit.useFile">Uzi dosieron</message>
+	<message key="submission.copyedit.copyeditComments">Provlegadaj komentaoj</message>
+	<message key="submission.copyedit.instructions">Provlegadaj gvidlinioj</message>
+
+	<message key="layoutEditor.activeEditorialAssignments">Aktivaj redaktistaj taskoj</message>
+	<message key="layoutEditor.completedEditorialAssignments">Finitaj redaktistaj taskoj</message>
+	<message key="layoutEditor.noActiveAssignments">Neniuj redaktistaj taskoj</message>
+	<message key="layoutEditor.layoutEditingAssignments">Empagigaj taskoj</message>
+	<message key="layoutEditor.galley.uploadGalleyFormat">Alŝuti provpresaĵan formaton</message>
+	<message key="layoutEditor.galley.replaceGalley">Anstataŭigi dosieron</message>
+	<message key="layoutEditor.galley.uploadSuppFile">Alŝuti kromdosieron</message>
+	<message key="submission.layout.imageInvalid">Netaŭga bildformato. Taŭgaj formatoj estas .gif, .jpg kaj .png.</message>
+
+	<message key="user.subscriptions.mySubscriptions">Miaj abonoj</message>
+	<message key="user.subscriptions.subscriptionStatus">Stato de la abonooj</message>
+	<message key="user.subscriptions.statusInformation">
+	  Aktiavaj kaj finitaj abonoj estas afiŝataj kun siaj finaj
+	  datoj. Krome la stataj informoj povas esti afiŝataj.
+	</message>
+	<message key="user.subscriptions.status">Stato</message>
+	<message key="user.subscriptions.statusDescription">Priskribo</message>
+	<message key="user.subscriptions.status.needsInformationDescription">
+	  Por la aktivigo de la abono bezonatas pliaj informoj
+	</message>
+	<message key="user.subscriptions.status.needsApprovalDescription">
+	  Antaŭ la aktivigo la abonoj ĝi devas esti aprobita
+	</message>
+	<message key="user.subscriptions.status.awaitingManualPaymentDescription">
+	  Permana pago estis petita sed ne recivita.
+	</message>
+	<message key="user.subscriptions.status.awaitingOnlinePaymentDescription">
+	  Perreta pago estis komencita sed rezignita aŭ ne kompletigita.
+	</message>
+	<message key="user.subscriptions.individualSubscriptions">Individua abono</message>
+	<message key="user.subscriptions.institutionalSubscriptions">Instituta abono</message>
+	<message key="user.subscriptions.renew">Plilongigi</message>
+	<message key="user.subscriptions.purchase">Aĉeti</message>
+	<message key="user.subscriptions.purchaseNewSubscription">Aĉeti novan abonon</message>
+	<message key="user.subscriptions.purchaseIndividualSubscription">Aĉeti individuan abonon</message>
+	<message key="user.subscriptions.purchaseInstitutionalSubscription">Aĉeti institutan abonon</message>
+	<message key="user.subscriptions.expires">Finiĝos</message>
+	<message key="user.subscriptions.expired">Finiĝinta</message>
+	<message key="user.subscriptions.viewSubscriptionTypes">Rigardi disponeblaj abonoj</message>
+	<message key="user.subscriptions.form.typeId">Abonspeco</message>
+	<message key="user.subscriptions.form.membership">Membreco</message>
+	<message key="user.subscriptions.form.membershipRequired">
+	  Por la elektita abono necesas membreco.
+	</message>
+	<message key="user.subscriptions.form.typeIdValid">Elektu validan abonspecon.</message>
+	<message key="user.subscriptions.form.subscriptionExists">Por tiu ĉi uzanto jam ekzistas abono.</message>
+	<message key="user.subscriptions.form.membershipInstructions">
+	  Por la elektita abonspeco necesas informoj pri membreco.
+	</message>
+	<message key="user.subscriptions.form.institutionName">Nomo de la instituto</message>
+	<message key="user.subscriptions.form.institutionNameRequired">Nomo de la instituto bezonatas.</message>
+	<message key="user.subscriptions.form.institutionMailingAddress">Adreso</message>
+	<message key="user.subscriptions.form.domain">Domajno</message>
+
+	<message key="subscriptionManager.subscriptionManagement">Abona administro</message>
+	<message key="subscriptionManager.individualSubscriptions">Individuaj abonoj</message>
+	<message key="subscriptionManager.institutionalSubscriptions">Institutaj abonoj</message>
+	<message key="subscriptionManager.subscriptionTypes">Abonspecoj</message>
+
+
+	<message key="article.pdf.title">Portabla Dokumenta Formato (PDF)</message>
+	<message key="article.pdf.download">Elŝuti tiun ĉi PDF-dosieron</message>
+	<message key="article.pdf.pluginMissing">
+	  <![CDATA[<p>La PDF-dosiero elektita aperus ĉi tie, se via
+	  retumilo havus kromaĵon por legi PDF-dosierojn.</p>
+	  <p>Alternative vi povas elŝuti la PDF-dosieron rekte al via
+	  komputilo kaj tie malfermi per PDF-legilo. Por elŝuti la
+	  kromdosieron alklaku la elŝutligilon ĉi-sube.]]>
+	</message>
+
+
+	<message key="payment.type.subscription">Abonkotizo</message>
+
+       	<message key="submission.comments.blindCcReviewers"> 
+	  Post la sendo vi ricevos blindan kopion, kiun vi povas sendi al la
+	  reviziantoj.
+	</message>
+
+<!-- nefarite
+	|-_- Sprachen -_-|
+	<message key="admin.languages.downloadUnavailable"><![CDATA[<p>Momentan ist das Herunterladen von Sprachpaketen vom Public Knowledge Project Server nicht möglich, weil:</p>
+	<ul>
+		<li>Ihr Server den Dienst GNU "tar" entweder nicht besitzt oder seine Ausführung nicht erlaubt.</li>
+		<li>OJS kann deshalb die Registrierungsdatei für Regionaleinstellungen (üblicherweise "registry/locales.xml") nicht verändern.</li>
+	</ul>
+<p>Sprachpakete können manuell von der <a href="http://pkp.sfu.ca">PKP-Webseite</a> heruntergeladen werden.</p>]]></message>
+
+	<message key="admin.auth.defaultSourceDescription"><![CDATA[<p>Eine Standardauthentifizierungsquelle außerhalb vom OJS festzulegen, hat folgende Auswirkungen:</p>
+<ul>
+	<li>Versucht jemand, auf dieser Seite ein neues Konto mit einem Benutzer/innen-Namen, der in der Authentifizierungsquelle existiert, nicht jedoch in der OJS-Datenbank, einzurichten, dann gelingt die Registrierung nur, wenn das eingegebene Passwort für dieses Benutzer/innen-Konto gültig ist.</li>
+</ul>]]></message>
+ 
+	|-_- Systeminformationen -_-|
+	<message key="admin.editSystemConfigInstructions"><![CDATA[Verwenden Sie dieses Formular, um Ihre Systemkonfiguration zu ändern (die Datei <tt>config.inc.php</tt>). Klicken Sie auf "Speichern", um die neue Konfiguration zu sichern, oder auf "Anzeigen", um die aktualisierte Konfigurationsdatei nur anzuzeigen, ohne die bestehende Konfiguration zu ändern.
+<br /><br />
+<span class="formError">Warnung: Änderungen an diesen Einstellungen können Ihre Website unzugänglich machen (die Konfigurationsdatei muss dann von Hand wiederhergestellt werden). Wir empfehlen daher dringend, Änderungen nur dann vorzunehmen, wenn Sie genau wissen, was Sie tun.</span>]]></message>
+	<message key="admin.overwriteConfigFileInstructions"><![CDATA[<h4>Beachten Sie:</div>
+<p>Das System konnte die Konfigurationsdatei nicht automatisch überschreiben. Öffnen Sie  <tt>config.inc.php</tt> mit einem geeigneten Texteditor und ersetzen Sie den Inhalt durch den Text im nachstehenden Textfeld.</p>]]></message>
+
+
+	|-_- Website-Verwaltung: Benutzer/innendaten zusammenführen -_-|
+
+	|-_- Abonnementverwaltung -_-|
+
+	|-_- Zeitschriftenverwaltung -_-|
+
+	|-_- Statistiken & Berichte -_-|
+
+	|-_- Verwaltung Plug-Ins -_-|
+
+	|-_- Verwaltung Zahlungen -_-|
+
+	|-_- Allgemeine Informationen: Plug-Ins -_-|
+	<message key="plugins.categories.auth.description">Die Zugangs-Plug-Ins ermöglichen OJS, die Zugangsberechtigung von Benutzer/innen an andere Systeme, wie etwa LDAP-Server, zu übertragen.</message>
+	<message key="plugins.categories.citationFormats.description">Plug-Ins für Zitatformate bieten Benutzer/innen unterschiedliche Formate zur Zitation der Artikel an.</message>
+	<message key="plugins.categories.generic.description">Generische Plugins werden zur Erweiterung von Open Journal Systems in einer Vielzahl von Wegen, die nicht durch die anderen Plug-In-Kategorien bereitgestellt werden.</message>
+	<message key="plugins.categories.implicitAuth">Plug-Ins zur impliziten Authentifizierung</message>
+	<message key="plugins.categories.implicitAuth.description">Plug-Ins zur impliziten Authentifizierung stellen Mittel zur Verfügung, um Nutzer/innen anhand ihrer HTTP-Header zu authentifizieren.</message>
+	<message key="plugins.categories.oaiMetadataFormats">Plug-In für OAI-Metadaten-Format</message>
+	<message key="plugins.categories.oaiMetadataFormats.description">Diese Format-Plug-Ins beziehen sich auf Metadaten für die OAI-Kommunikation</message>
+
+	|-_- Dateinavigator -_-|
+
+	|-_- Einrichten einer Zeitschrift -_-|
+
+	|-_- 1. Einrichtungsschritt -_-|
+
+	|-_- 2. Einrichtungsschritt -_-|
+
+
+	<message key="manager.setup.reviewProcessEmailDescription">Redakteur/innen senden den 
+	Gutachter/innen die Bitte um Begutachtung, indem sie den eingereichten Beitrag an die E-Mail anhängen. Gutachter/innen mailen den Redakteur/innen ihr Einverständnis (oder einen abschlägigen Bescheid), außerdem das Gutachten und ihre Empfehlung. Redakteur/innen können das Einverständnis der Gutachter/innen (oder deren abschlägigen Bescheid) sowie das Gutachten und die Empfehlung auf der "In Begutachtung"-Seite des Beitrags einsehen, um den Begutachtungsprozess zu verfolgen.</message>
+
+
+	<message key="manager.setup.lockssDescription"><![CDATA[OJS unterstützt <a href="http://lockss.org/" target="_blank">LOCKSS</a> (Lots of Copies Keep Stuff Safe &ndash; viele Kopien sichern das Material) und gewährleistet so eine sichere und dauerhafte Archivierung der Zeitschrift. LOCKSS ist ein von der Stanforder Universitätsbibliothek entwickeltes offenes Programm, das Bibliotheken ermöglicht, ausgewählte Online-Zeitschriften dadurch zu sichern, dass sie registrierte Zeitschriften-Webseiten regelmäßig auf neue Inhalte prüfen und diese archivieren. Jedes Archiv wird fortlaufend mit anderen Bibliotheksarchiven verglichen, und falls Inhalte verloren gegangen oder beschädigt sind, werden diese anderen Archive oder die Zeitschriften genutzt, um sie wiederherzustellen.
+<br /><br />
+LOCKSS muss erst dann eingerichtet werden, wenn die Zeitschrift vollständig in Betrieb genommen wurde. Dann führen Sie bitte die folgenden beiden Schritte aus:]]></message>
+
+	|-_- 3. Einrichtungsschritt  -_-|
+	<message key="manager.setup.authorCopyrightNotice.sample"><![CDATA[<h3>Empfohlene Creative-Commons-Lizenz</h3>
+<h4>1. Empfohlene Copyright-Regelungen für Zeitschriften mit Open Access</h4>
+Autor/innen, die in dieser Zeitschrift publizieren möchten, stimmen den folgenden Bedingungen zu:
+<ol type="a">
+	<li> Die Autor/innen behalten das Copyright und erlauben der Zeitschrift die Erstveröffentlichung unter einer <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Namensnennung Lizenz</a>, die es anderen erlaubt, die Arbeit unter Nennung der Autor/innenschaft und der Erstpublikation in dieser Zeitschrift zu verwenden.</li>
+	<li>Die Autor/innen können zusätzliche Verträge für die nicht-exklusive Verbreitung der in der Zeitschrift veröffentlichten Version ihrer Arbeit unter Nennung der Erstpublikation in dieser Zeitschrift eingehen (z.B. sie in Sammelpublikation oder einem Buch veröffentlichen).</li>
+	<li>Die Autor/innen werden dazu ermutigt, ihre Arbeit parallel zur Einreichung bei dieser Zeitschrift online zu veröffentlichen (z.B. auf den Homepages von Institutionen oder auf ihrer eigenen Homepage), weil so produktive Austauschprozesse wie auch eine frühe und erweiterte Bezugnahme auf das veröffentlichte Werk gefördert werden (siehe <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">The Effect of Open Access</a>).</li>
+</ol>
+
+<h4>Empfohlene Copyright-Regelungen für Zeitschriften mit verzögertem Open Access</h4>
+Autor/innen, die in dieser Zeitschrift publizieren möchten, stimmen den folgenden Bedingungen zu:
+<ol type="a">
+	<li>Die Autor/innen behalten das Copyright und erlauben der Zeitschrift die Erstveröffentlichung, womit die Arbeit [ZEITSPANNE FESTLEGEN] nach der Veröffentlichung zugleich unter einer <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Namensnennung Lizenz</a> lizensiert wird, die es anderen erlaubt, die Arbeit unter Nennung der Autor/innenschaft und der Erstpublikation in dieser Zeitschrift zu verwenden.</li>
+	<li>Die Autor/innen können zusätzliche Verträge für die nicht-exklusive Verbreitung der in der Zeitschrift veröffentlichten Version ihrer Arbeit unter Nennung der Erstpublikation in dieser Zeitschrift eingehen (z.B. sie in Sammelpublikation oder einem Buch veröffentlichen).</li>
+	<li>Die Autor/innen werden dazu ermutigt, ihre Arbeit parallel zur Einreichung bei dieser Zeitschrift online zu veröffentlichen (z.B. auf den Homepages von Institutionen oder auf ihrer eigenen Homepage), weil so produktive Austauschprozesse wie auch eine frühe und erweiterte Bezugnahme auf das veröffentlichte Werk gefördert werden (siehe <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">The Effect of Open Access</a>).</li>
+</ol>]]></message>
+	<message key="manager.setup.subjectClassificationDescription"><![CDATA[[Die Zeitschrift verwendet ein online verfügbares Klassifikationssystem.<br />
+Titel des Klassifikationssystems]]></message>
+	<message key="manager.setup.registerJournalForIndexingDescription"><![CDATA[Damit der Inhalt dieser Zeitschrift in einem weltweiten System von Forschungsdatenbanken indiziert wird, lesen Sie bitte die <a href="http://www.oaister.org/dataproviders.html" target="_blank">Schritte, um Daten zu liefern</a> und registrieren Sie Ihre Zeitschrift bei der offiziellen <a href="http://www.openarchives.org/data/registerasprovider.html" target="_blank">Open-Archives-Registrierung</a>. Zum registrieren benötigen Sie die Basis-URL für Ihr Repositorium: <span class="highlight">{$oaiUrl}</span>. Danach können Sie Ihre Zeitschrift bei der <a href="http://gita.grainger.uiuc.edu/registry/" target="_blank">UIUC OAI registry</a> und bei <a href="http://www.oaister.org/" target="_blank">OAIster</a> registrieren.
+<br /><br />
+Beachten Sie bitte, dass Ihre Zeitschrift bereits automatisch indiziert wird, wenn Ihr/e Website-Administrator/in die gesamte Installation bereits bei diesen Diensten registriert hat. In diesem Fall müssen Sie Ihre Zeitschrift nicht gesondert registrieren.]]></message>
+	<message key="manager.setup.citations">Den Zitationsauszeichnungsassistenten aktivieren.</message>
+
+	|-_- 4. Einrichtungsschritt -_-|
+	<message key="manager.setup.basicEditorialStepsDescription"><![CDATA[Schritte: Liste der eingegangenen Beiträge &gt; Begutachtung der Beiträge &gt; Redaktion der Beiträge &gt; Inhaltsverzeichnis<br /><br />
+Wählen Sie ein Schema für diese Schritte im redaktionellen Verfahren. (Zur Bestimmung von Redakteur/innen und Rubrikredakteur/innen gehen Sie unter "Zeitschriftenverwaltung" zu "Redakteur/innen".)]]></message>
+	<message key="manager.setup.referenceLinkingDescription"><![CDATA[<p>Die folgenden Optionen sind verfügbar, die es Leser/innen ermöglichen, Online-Versionen der nachgewiesenen bzw. verwendeten Literatur zu finden.</p>
+
+<ol>
+	<li><strong>Ein Lesewerkzeug hinzufügen</strong><p>Die Zeitschriftenverwaltung kann "Verweise finden" zu den Lesewerkzeugen zu den veröffentlichten Beiträgen hinzufügen. Dies ermöglicht den Leser/innen, den Titel einer Literaturangabe einzutragen und ausgewählte wissenschaftliche Datenbanken nach der Literaturangabe zu durchsuchen.</p></li>
+	<li><strong>Links in die Literaturverweise einbetten</strong><p>Die Layouterin/der Layouter kann einen Link zu denjenigen Literaturverweisen hinzufügen, die online zu finden sind. Dazu muss sie/er die folgenden Anweisungen befolgen (die bearbeitet werden können).</p></li>
+</ol>]]></message>
+
+	|-_- 5. Einrichtungsschritt -_-|
+
+	|-_- Sprachen -_-|
+
+	|-_- Rubrikverwaltung -_-|
+
+	|-_- Import/Export -_-|
+
+	|-_- Positionen / Redaktionsteam -_-|
+
+
+
+	|-_- Personenverwaltung -_-|
+	<message key="manager.people.confirmDisable">Diese Nutzerin/diesen Nutzer sperren? Dies wird die Nutzerin/den Nutzer daran hindern, sich bei diesem System anzumelden.
+
+Sie können der Nutzerin/dem Nutzer einen Grund für die Sperrung des Zugangs angeben.</message>
+	<message key="manager.people.noAdministrativeRights"><![CDATA[Leider haben Sie keine Verwaltungsrechte für diese/n Benutzer/in. Die Gründe mögen sein:  
+		<ul>
+			<li>Die Benutzerin/der Benutzer ist ein/e Website-Administrator/in</li>
+			<li>Die Benutzerin/der Benutzer ist an Zeitschriften beteiligt, die Sie nicht verwalten.</li>
+		</ul>
+	Diese Aufgabe muss von einer Website-Administratorin/einem Website-Administrator durchgeführt werden.
+	]]></message>
+
+
+
+	|-_- E-Mail-Verwaltung -_-|
+
+	|-_- Verwaltung der Abonnementrichtlinien -_-|
+
+	|-_- Abonnementtypenverwaltung -_-|
+
+	|-_- Abonnementverwaltung -_-|
+
+	|-_- Mitteilungstypverwaltung -_-|
+
+	|-_- Mitteilungsverwaltung -_-|
+
+
+	|-_- Startseite Redakteur/innen -_-|
+
+	|-_- Frühere Ausgaben -_-|
+
+	|-_- Ausgabe erstellen / Ausgabendaten -_-|
+
+	|-_- Aktuelle Ausgaben -_-|
+
+	|-_- Navigation im Seitenleistenmenü -_-|
+
+
+
+
+
+
+
+	|-_- Layouter/in -_-|
+
+
+	|-_- Im Begutachtungsverfahren -_-|
+	
+	|-_- Im Lektorat -_-|	
+	<message key="copyeditor.article.fileToCopyedit">Datei zum Lektorieren</message>
+	<message key="copyeditor.article.copyeditorFile">Datei der Lektorin/des Lektors</message>
+	<message key="copyeditor.article.uploadedFile">Hochgeladene Datei</message>
+	<message key="copyeditor.article.copyeditorFinalFile">Datei der Lektorin/des Lektors</message>
+
+	|-_- Korrekturlektor/in -_-|
+	<message key="proofreader.noProofreadingAssignments">Keine Korrekturlektorataufgaben</message>
+
+	|-_- Autor/in -_-|
+
+
+	|-_- Einreichung, Schritt 1 -_-|
+
+
+	|-_- Einreichung, Schritt 2 -_-|
+
+	|-_- Einreichung, Schritt 3 -_-|
+
+	|-_- Einreichung Schritt, 4 -_-|
+
+	|-_- Einreichung, Schritt 4a: Zusatzdateien -_-|
+
+	|-_- Einreichung, Schritt 5 -_-|
+
+	|-_- Im Begutachtungs-/Redaktionsverfahren -_-|
+	<message key="submission.review.mustUploadFileForReview">Anfrage-E-Mail kann erst gesendet werden, wenn eine Begutachtungsversion vorliegt.</message>
+
+	|-_- Beitragsverlauf nachvollziehen - Lektorat -_-|
+
+	|-_- Beitragsverlauf nachvollziehen - Layoutspezifisch -_-|
+	<message key="submission.layout.noLayoutFile">Keine (Laden Sie die endgültige Lektoratsversion als Layoutversion hoch, bevor Sie eine Anfrage stellen.)</message>
+	<message key="submission.layout.publicGalleyId">Eindeutige Kennung der Fahne</message>
+	<message key="submission.layout.galleyPublicIdentificationExists">Eindeutige Kennung existiert bereits.</message>
+	<message key="submission.layout.assignLayoutEditor">Beitrag einer Layouterin/einem Layouter zuweisen</message>
+	<message key="submission.layout.replaceLayoutEditor">Layouter/in ersetzen</message>
+	<message key="submission.layout.layoutComments">Layout - Kommentare</message>
+	<message key="submission.layout.instructions">Layoutrichtlinien </message>
+	<message key="submission.layout.referenceLinking">Verlinkung von Literaturververweisen</message>
+
+
+	|-_- Beitragslauf - Korrekturlektorat -_-|
+	<message key="submission.proofreadingComments">Korrekturlektorat - Kommentare</message>
+	<message key="submission.proofread.corrections">Korrekturlektorat - Korrekturen</message>
+	<message key="submission.proofread.instructions">Korrekturlektorat - Richtlinien</message>
+
+	|-_- Verlaufsprotokoll -_-|
+
+	<message key="submission.logType.article">Artikel</message>
+	<message key="submission.logType.author">Autor/in</message>
+	<message key="submission.logType.editor">Redakteur/in</message>
+	<message key="submission.logType.review">Gutachten</message>
+	<message key="submission.logType.copyedit">Lektorat</message>
+	<message key="submission.logType.layout">Layout</message>
+	<message key="submission.logType.proofread">Korrekturlektorat</message>
+
+	|-_- Protokoll Vorkommnisse -_-|
+
+	|-_- Protokoll E-Mails -_-|
+
+	|-_- Kommentare zum Beitrag-_-|
+	<message key="submission.comments.editorAuthorCorrespondence">Korrepondenz Redakteur/in - Autor/in</message>
+	<message key="submission.comments.copyeditComments">Lektorats-Kommentare</message>
+	<message key="submission.comments.viewableDescription"><![CDATA[Diese Kommentare können dem/der Autor/in mitgeteilt werden.<br />
+(Weitere Kommentare können nach dem Speichern hinzugefügt werden.)]]></message>
+	<message key="submission.comments.canShareWithAuthor">Für Autor/in und Redakteur/in</message>
+	<message key="submission.comments.cannotShareWithAuthor">Für Redakteur/in</message>
+	<message key="submission.comments.forAuthorEditor">Für Autor/in und Redakteur/in</message>
+	<message key="submission.comments.forEditor">Für Redakteur/in</message>
+	<message key="submission.comments.saveAndEmailAuthor">Speichern und E-Mail an Autor/in senden</message>
+	<message key="submission.comments.saveAndEmailEditor">Speichern und E-Mail an Redakteur/in senden</message>
+
+
+
+	|-_- Abonnements -_-|
+-->
+
+<!--nefarite
+
+
+	|-_- Einschubseite für Fahnen, die weder PDF noch HTML sind -_-|
+	<message key="article.nonpdf.title">Artikel herunterladen</message>
+	<message key="article.nonpdf.note"><![CDATA[Die gewählte Datei sollte automatisch geladen werden. Falls nicht, klicken Sie auf den nachstehenden Link. Beachten Sie bitte, dass die Datei zur Wiedergabe ein spezielles Programm oder ein Plug-In benötigen kann.<br /><br />Falls die Datei nicht automatisch geladen wird <a href="{$pdfUrl}">hier klicken</a>.]]></message>
+
+	|-_- Index: Site -_-|
+	<message key="site.journalsHosted">Zeitschriften auf dieser Seite</message>
+	<message key="site.journalView">Zur Zeitschrift</message>
+	<message key="site.journalRegister">Sich registrieren</message>
+	<message key="site.journalCurrent">Aktuelle Ausgabe</message>
+	<message key="site.noJournals">Es sind keine Zeitschriften verfügbar.</message>
+
+
+	|-_- Mitteilungen -_-|
+
+	|-_- Hilfe -_-|
+	<message key="help.ojsHelp">Hilfe zu Open Journal Systems</message>
+	<message key="help.ojsHelpAbbrev">OJS-Hilfe</message>
+	<message key="help.searchReturnResults">Zurück zu Suchergebnissen</message>
+
+	|-_- Spenden -_-|
+	<message key="donations.thankYou">Danke</message>
+	<message key="donations.thankYouMessage">Vielen Dank für Ihre Spende. Wir wissen sie sehr zu schätzen.</message>
+
+	|-_- Zahlungen -_-|
+	<message key="payment.loginRequired">Sie müssen angemeldet sein, um Zahlungen durchführen zu können.</message>
+	<message key="payment.loginRequired.forArticle">Ein Abonnement oder der Erwerb des Artikels sind für den Zugang notwendig. Loggen Sie sich bei der Zeitschrift ein, um Ihr Abonnement zu überprüfen, auf frühere Erwerbungen zuzugreifen oder den Artikel zu erwerben.</message>
+	<message key="payment.loginRequired.forIssue">Ein Abonnement oder der Erwerb der Ausgabe sind für den Zugang notwendig. Loggen Sie sich bei der Zeitschrift ein, um Ihr Abonnement zu überprüfen, auf frühere Erwerbungen zuzugreifen oder die Ausgabe zu erwerben.</message>
+	<message key="payment.loginRequired.forDonation">Sie müssen angemeldet sein, um eine Spende zu machen.</message>
+	<message key="payment.paid">Bezahlt</message>
+	<message key="payment.payNow">Jetzt bezahlen</message>
+	<message key="payment.waive">Auf Gebühr verzichten</message>
+	<message key="payment.alreadyPaid">Bereits bezahlt</message>
+	<message key="payment.alreadyPaidMessage">Wählen Sie dieses Kästchen aus, wenn Sie Ihre Zahlung bereits an die Zeitschrift übermittelt haben, um den Einreichungsprozess abzuschließen. Ihr Beitrag wird erst begutachtet, wenn die Zahlung angekommen ist. Klicken Sie "Jetzt bezahlen" an, um die Zahlungsanweisungen einzusehen.</message>
+	<message key="payment.paymentReceived">Zahlung erhalten</message>
+	<message key="payment.paymentSent">Zahlung wurde bereits veranlasst</message>
+	<message key="payment.authorFees">Autor/innengebühren</message>
+	<message key="payment.type.submission">Gebühr für das Einreichen eines Beitrags</message>
+	<message key="payment.type.publication">Veröffentlichungsgebühr</message>
+	<message key="payment.type.fastTrack">Gebühr für beschleunigte Begutachtung</message>
+	<message key="payment.type.membership">Mitgliedsbeitrag</message>
+	<message key="payment.type.purchaseArticle">Artikelgebühr</message>
+	<message key="payment.type.purchaseIssue">Ausgabengebühr</message>
+-->
+
+	<message key="payment.type.subscription">Abonkotizo</message>
+<!-- nefarite
+	<message key="payment.type.donation">Spenden</message>
+	<message key="payment.donation.makeDonation">Spenden</message>
+	<message key="payment.submission.paySubmission">Einreichungsgebühr zahlen</message>
+	<message key="payment.fastTrack.payFastTrack">Gebühr für beschleunigte Begutachtung zahlen</message>
+	<message key="payment.fastTrack.inFastTrack">in beschleunigter Begutachtung</message>
+	<message key="payment.publication.payPublication">Veröffentlichungsgebühr zahlen</message>
+	<message key="payment.publication.publicationPaid">Veröffentlichungsgebühr bezahlt</message>
+	<message key="payment.membership.buyMembership">Mitgliedschaft erwerben</message>
+	<message key="payment.membership.renewMembership">Mitgliedschaft erneuern</message>
+	<message key="payment.membership.ends">Endet</message>
+	<message key="payment.subscription.purchase">Abonnement erwerben</message>
+	<message key="payment.subscription.renew">Abonnement erneuern</message>
+	<message key="payment.subscription.expires">Läuft aus</message>
+
+	|-_- Installation -_-|
+	<message key="installer.ojsInstallation">Installation von OJS</message>
+	<message key="installer.ojsUpgrade">Aktualisierung von OJS</message>
+	<message key="installer.installationInstructions"><![CDATA[<h4>OJS-Version {$version}</h4>
+
+<p>Danke für das Herunterladen von Open Journal Systems <strong>des Public Knowledge Projects (PKP)</strong>. Bevor Sie fortfahren, lesen Sie bitte die zum Programm gehörende <a href="{$baseUrl}/docs/README">README</a>-Datei. Näheres über das Public Knowledge Project und seine Programmentwicklungen finden Sie auf der <a href="http://pkp.sfu.ca/" target="_blank">Webseite des PKP</a>. Wenn Sie Programmfehler melden wollen oder technische Fragen zu Open Journal Systems haben, gehen Sie bitte zum <a href="http://pkp.sfu.ca/support/forum">Support Forum</a> von PKP oder besuchen Sie unseren <a href="http://pkp.sfu.ca/bugzilla/" target="_blank">Webservice für die Anzeige von Programmfehlern</a>. Wenn Sie im Support Forum keine geeignete Hilfestellung finden, können Sie uns auch unter <a href="mailto:pkp.contact@gmail.com"></a> per E-Mail kontaktieren.</p>
+
+<h4>Aktualisierungen</h4>
+
+<p>Wenn Sie eine bestehende Version von OJS 2.x durch eine neuere ersetzen wollen, <a href="{$upgradeUrl}/install/upgrade">hier klicken</a></p>
+
+<h4>Empfohlene Systemvoraussetzungen</h4>
+
+<ul>
+	<li><a href="http://www.php.net/" target="_blank">PHP</a> >= {$phpRequiredVersion} (einschließlich PHP 5.x); Sie nutzen momentan PHP {$phpVersion}{$wrongPhpText}</li>
+	<li><a href="http://www.mysql.com/" target="_blank">MySQL</a> >= 3.23.23 (einschließlich MySQL 4.x) oder <a href="http://www.postgresql.org/" target="_blank">PostgreSQL</a> >= 7.1  (einschließlich PostgreSQL 8.x)</li>
+	<li><a href="http://httpd.apache.org/" target="_blank">Apache</a> >= 1.3.2x oder >= 2.0.4x oder Microsoft IIS 6</li>
+	<li>Betriebssystem: Jedes Betriebssystem, das die obigen Programme unterstützt, darunter <a href="http://www.linux.org/" target="_blank">Linux</a>, <a href="http://www.bsd.org/" target="_blank">BSD</a>, <a href="http://www.sun.com/" target="_blank">Solaris</a>, <a href="http://www.apple.com/" target="_blank">Mac OS X</a>, <a href="http://www.microsoft.com/">Windows</a></li>
+</ul>
+
+<p>Die Ressourcen von PKP sind begrenzt; nicht alle Kombinationen von Plattformen und Programmversionen können getestet werden. Eine Funktionsgarantie kann daher nicht gegeben werden. </p>
+
+<p>Änderungen an diesen Einstellungen können nach der Installation in der Datei <tt>config.inc.php</tt> im OJS-Basisverzeichnis oder über die Oberfläche der Website-Administration vorgenommen werden.</p>
+
+<h4>Unterstützte Datenbank-Systeme</h4>
+
+<p>Bisher wurde OJS nur mit MySQL und PostgreSQL getestet, aber andere Datenbanken, die <a href="http://adodb.sourceforge.net/" target="_blank">ADOdb</a> unterstützen, können ebenfalls funktionieren (ganz oder teilweise). Berichte zur Kompatibilität und Patches für andere Datenbanken nimmt das OJS-Team gerne entgegen.</p>
+
+<h4>Vor der Installation</h4>
+
+<p>1. Die folgenden Dateien und Verzeichnisse (mit ihren Inhalten) müssen beschreibbar sein:</p>
+<ul>
+	<li><tt>config.inc.php</tt> ist beschreibbar (optional): {$writable_config}</li>
+	<li><tt>public/</tt> ist beschreibbar: {$writable_public}</li>
+	<li><tt>cache/</tt> ist beschreibbar: {$writable_cache}</li>
+	<li><tt>cache/t_cache/</tt> ist beschreibbar: {$writable_templates_cache}</li>
+	<li><tt>cache/t_compile/</tt> ist beschreibbar: {$writable_templates_compile}</li>
+	<li><tt>cache/_db</tt> ist beschreibbar: {$writable_db_cache}</li>
+</ul>
+
+<p>2. Ein Verzeichnis für die Ablage hochgeladener Dateien muss angelegt und beschreibbar gemacht werden (siehe "Datei-Einstellungen" unten).</p>
+
+<h4>Manuelle Installation</h4>
+
+<p>Wählen Sie <strong>Manuelle Installation</strong>, um die notwendigen SQL-Befehle zur Einrichtung des OJS-Datenbank-Schemas und die für die manuelle Installation erforderlichen Anfangsdaten anzuzeigen. Die Option ist hilfreich, wenn Sie Probleme bei der Einrichtung beheben wollen, insbesondere bei nicht unterstützten Systemplattformen. Beachten Sie, dass diese Einrichtungsmethode nicht versucht, die Datenbank oder irgendwelche Tabellen zu erstellen, obwohl die Konfigurationsdatei mit den gelieferten Datenbankangaben geschrieben wird.</p>]]></message>
+	<message key="installer.upgradeInstructions"><![CDATA[<h4>OJS-Version{$version}</h4>
+	
+<p>Danke für das Herunterladen von Open Journal Systems <strong>des Public Knowledge Project</strong>. Bevor Sie fortfahren, lesen Sie bitte die zum Programm gehörenden Dateien <a href="{$baseUrl}/docs/README">README</a> und <a href="{$baseUrl}/docs/UPGRADE">UPGRADE</a>. Näheres über das Public Knowledge Project und seine Programmentwicklungen finden Sie auf der <a href="http://pkp.sfu.ca/" target="_blank">Webseite des PKP</a>. Wenn Sie Programmfehler melden wollen oder technische Fragen zu Open Journal Systems haben, gehen Sie bitte zum <a href="http://pkp.sfu.ca/support/forum">Support Forum</a> von PKP oder besuchen Sie unseren <a href="http://pkp.sfu.ca/bugzilla/" target="_blank">Webservice für die Anzeige von Programmfehlern</a>. Wenn Sie im Support Forum keine geeignete Hilfestellung finden, können Sie uns auch unter <a href="mailto:pkp.contact@gmail.com"></a> per E-Mail kontaktieren.</p>
+<p>Wir <strong>empfehlen dringend</strong>, dass Sie ein Backup Ihrer Datenbank, Dateiverzeichnisse und OJS-Installation machen, bevor Sie fortfahren.</p>
+<p>Falls Sie in einem <a href="http://www.php.net/features.safe-mode" target="_blank">PHP-Safe Mode</a> arbeiten, stellen Sie bitte sicher, dass die max_execution_time-Richtlinie in Ihrer php.ini-Konfigurationsdatei auf einen hohen Grenzwert eingestellt ist. Sollte dieses (oder irgendein anderes) Zeitlimit (z.B. die "Timeout"-Regelung von Apache) erreicht werden und der Upgrade-Prozess unterbrochen werden, müssen Sie manuell eingreifen.</p>]]></message>
+	<message key="installer.localeSettingsInstructions"><![CDATA[Zur durchgängigen Unterstützung von Unicode (UTF-8) verwenden Sie stets UTF-8 als Zeichensatz. Beachten Sie, dass MySQL >= 4.1.1 oder PostgreSQL >= 7.1-Datenbankserver erforderlich sind. Beachten Sie bitte außerdem, dass die Unterstützung von Unicode PHP >= 4.3.0 kompiliert mit der Bibliothek <a href="http://www.php.net/mbstring" target="_blank">mbstring</a> verlangt (in den meisten neueren PHP-Installationen standardmäßig aktiviert). Falls Ihr Server diese Anforderungen nicht erfüllt, können Schwierigkeiten mit erweiterten Schriftsätzen auftreten.
+	<br /><br />
+	Ihr Server unterstützt derzeit : <strong>{$supportsMBString}</strong>]]></message>
+	<message key="installer.localeInstructions">Die Hauptsprache dieses Systems. Falls Sie an hier nicht aufgeführten Sprachen interessiert sind, sehen Sie bitte in der OJS-Dokumentation nach.</message>
+	<message key="installer.additionalLocalesInstructions">Wählen Sie alle weiteren Regionaleinstellungen, die das System unterstützen soll. Diese Regionaleinstellungen stehen allen Zeitschriften der Website zur Verfügung. Weitere Regionaleinstellungen können jederzeit über die Website-Administration eingerichtet werden.</message>
+	<message key="installer.filesDirInstructions"><![CDATA[Bitte geben Sie den vollständigen Pfad zu einem existierenden Verzeichnis an, in dem hochgeladene Dateien gespeichert werden sollen. Dieses Verzeichnis sollte nicht direkt aus dem WWW lesbar sein. <strong>Bitte stellen Sie sicher, dass dieses Verzeichnis existiert und beschreibbar ist, bevor Sie mit der Installation fortfahren.</strong> Pfadangaben auf Windows-Rechnern sollten normale Schrägstriche enthalten, z.B. "C:/myjournal/files".]]></message>
+	<message key="installer.databaseSettingsInstructions">OJS benötigt eine SQL-Datenbank zur Speicherung der Daten. Eine Liste der unterstützten Datenbanken können Sie der oben stehenden Liste der Systemanforderungen entnehmen. Bitte geben Sie in den folgenden Feldern die Einstellungen zur Verbindung zur Datenbank ein.</message>
+	<message key="installer.installApplication">Open Journal Systems installieren</message>
+	<message key="installer.upgradeApplication">Open Journal Systems upgraden</message>
+	<message key="installer.reinstallAfterDatabaseError"><![CDATA[<b>Warnung:</strong> Wenn die Datenbank-Installation fehlschlägt, müssen Sie eventuell die OJS-Datenbank bzw. die Datenbank-Tabellen von Hand löschen, bevor Sie eine erneute Installation der Datenbank probieren können.]]></message>
+	<message key="installer.overwriteConfigFileInstructions"><![CDATA[<h4>WICHTIG!</h4>
+<p>Die Installationsprozedur konnte die Konfigurationsdatei nicht automatisch überschreiben. Bevor Sie versuchen, das System zu benutzen, öffnen Sie bitte <tt>config.inc.php</tt> in einem geeigneten Text-Editor und ersetzen Sie den Dateiinhalt durch den Inhalt des folgenden Textfeldes.</p>]]></message>
+	<message key="installer.manualSQLInstructions"><![CDATA[<h4>Manuelle Installation</h4>
+<p>Die SQL-Anweisungen zum Anlegen des OJS-Datenbankschemas und für die anfänglich enthaltenen Daten werden unten angezeigt. Bitte beachten Sie, dass das System unbenutzbar ist, bis diese Anweisungen manuell ausgeführt worden sind. Außerdem müssen Sie die <tt>config.inc.php</tt>-Konfigurationsdatei von Hand bearbeiten.</p>]]></message>
+	<message key="installer.installationComplete"><![CDATA[<p>Die Installation von OJS wurde erfolgreich abgeschlossen.</p>
+<p>Um mit der Nutzung des Systems zu beginnen, <a href="{$loginUrl}">loggen</a> Sie sich bitte mit dem auf der vorherigen Seite eingegebenen Benutzer/innen-Namen und dem entsprechenden Passwort <a href="{$loginUrl}">ein</a>.</p>
+<p>Wenn Sie in Zukunft Neuigkeiten und Hinweise auf Aktualisierungen erhalten möchten:</p>
+<ol>
+	<li><a href="http://pkp.sfu.ca/ojs/register" target="_new">Registrieren</a> Sie Ihre Zeitschrift, Konferenz oder Ihren Harvester und erhalten Sie Hinweise zu Software-Upgrades, Sicherheits-Patches und mehr.</li>
+	<li>Treten Sie unseren <a href="http://pkp.sfu.ca/informed" target="_new">Diskussionslisten</a> für OJS, OCS, den Harvester, Lemon8-XML, OMP oder allen genannten Themen bei.</li>
+	<li>Abonnieren Sie den <a href="http://pkp.sfu.ca/blog/feed" target="_new">RSS-Feed</a> des <a href="http://pkp.sfu.ca/blog" target="_new">PKP-Blogs</a>.</li>
+</ol>
+<p>Wenn Sie Fragen oder Kommentare haben, besuchen Sie bitte das <a href="http://pkp.sfu.ca/support/forum" target="_new">Support-Forum</a>.</p>]]></message>
+	<message key="installer.upgradeComplete"><![CDATA[<p>Die Aktualisierung von OJS auf Version {$version} wurde erfolgreich abgeschlossen.</p>
+<p>Bitte vergessen Sie nicht, die "installed"-Einstellung in Ihrer config.inc.php-Konfigurationsdatei wieder zurück auf <em>On</em> zu setzen.</p>
+<p>Wenn Sie sich noch nicht registriert haben und in Zukunft Neuigkeiten und Hinweise auf Aktualisierungen erhalten möchten, <strong>registrieren Sie sich bitte auf <a href="http://pkp.sfu.ca/ojs/register" target="_new">http://pkp.sfu.ca/ojs/register</a>.</strong> Wenn Sie Fragen oder Kommentare haben, besuchen Sie bitte das <a href="http://pkp.sfu.ca/support/forum" target="_new">Support-Forum</a>.</p>]]></message>
+
+
+	|-_- Protokolle - Beiträge -_-|
+	<message key="log.author.submitted">{$authorName} hat einen neuen Beitrag eingereicht, ID {$submissionId}.</message>
+	<message key="log.author.documentRevised">{$authorName} hat den Artikel bearbeitet {$articleId}. Die neue Datei-ID ist {$fileId}.</message>
+	<message key="log.review.reviewerAssigned">Der Beitrag {$articleId} wurde {$reviewerName} zur Begutachtung im Durchgang {$round} zugewiesen.</message>
+	<message key="log.review.reviewerUnassigned">Der Beitrag {$articleId} wird nicht länger von {$reviewerName} im Durchgang {$round} begutachtet.</message>
+	<message key="log.review.reviewInitiated">Durchgang {$round} der Begutachtung von Beitrag {$articleId} durch {$reviewerName} hat begonnen.</message>
+	<message key="log.review.reviewReinitiated">Durchgang {$round} der Begutachtung von Beitrag {$articleId} durch {$reviewerName} wurde erneut begonnen.</message>
+	<message key="log.review.reviewCancelled">Durchgang {$round} der Begutachtung von Beitrag {$articleId}  durch {$reviewerName} wurde abgebrochen.</message>
+	<message key="log.review.reviewCleared">Die Begutachtung von Beitrag {$articleId} in Durchgang {$round} durch {$reviewerName} wurde gelöscht.</message>
+	<message key="log.review.reviewerRated">{$reviewerName} wurde beurteilt für Durchgang {$round} der Begutachtung von Beitrag {$articleId}.</message>
+	<message key="log.review.reviewDueDateSet">Abgabetermin für Durchgang {$round} der Begutachtung von Beitrag {$articleId} durch {$reviewerName} festgesetzt auf {$dueDate}.</message>
+	<message key="log.review.reviewRecommendationSet">Die Empfehlung für Durchgang {$round} der Begutachtung von Beitrag {$articleId} durch {$reviewerName} wurde abgegeben.</message>
+	<message key="log.review.reviewRecommendationSetByProxy">Die Empfehlung für Durchgang {$round} der Begutachtung von Beitrag {$articleId} wurde von Redakteur/in {$editorName} im Auftrag der Gutachterin/des Gutachters {$reviewerName} abgegeben.</message>
+	<message key="log.review.resubmit">Beitrag {$articleId} wurde erneut zur Begutachtung eingereicht.</message>
+	<message key="log.review.reviewDeclined">{$reviewerName} hat die Begutachtung von Beitrag {$articleId} in Durchgang {$round} abgelehnt.</message>
+	<message key="log.review.reviewAccepted">{$reviewerName} hat die Begutachtung von Beitrag {$articleId} in Durchgang {$round} angenommen.</message>
+	<message key="log.review.reviewDeclinedByProxy">{$userName} hat die Begutachtung von Beitrag {$articleId} in Durchgang {$round} im Auftrag von {$reviewerName} abgelehnt.</message>
+	<message key="log.review.reviewAcceptedByProxy">{$userName} hat die Begutachtung von Beitrag {$articleId} in Durchgang {$round} im Auftrag von {$reviewerName} angenommen.</message>
+	<message key="log.review.reviewFileByProxy">Redakteur/in {$userName} hat die Begutachtungsdatei von Beitrag {$articleId} in Durchgang {$round} im Auftrag der Gutachterin/des Gutachters {$reviewerName} hochgeladen.</message>
+	<message key="log.review.reviewerFile">Begutachtungsdatei wurde hochgeladen.</message>
+	<message key="log.editor.decision">Eine Entscheidung ({$decision}) bezüglich Artikel {$articleId} wurde von Redakteur/in {$editorName} abgegeben.</message>
+
+
+	<message key="log.copyedit.initiate">Lektorat von Beitrag {$articleId} wurde von {$copyeditorName} begonnen.</message>
+	<message key="log.copyedit.copyeditFileSet">Die Standardbearbeitungsdatei wurde ausgewählt.</message>
+	<message key="log.copyedit.initialEditComplete">{$copyeditorName} hat das erste Lektorat von Beitrag {$articleId} fertiggestellt.</message>
+	<message key="log.copyedit.finalEditComplete">{$copyeditorName} hat das endgültige Lektorat von Beitrag {$articleId} fertiggestellt.</message>
+	<message key="log.copyedit.copyeditorAssigned"> Beitrag {$articleId} wurde {$copyeditorName} zum Lektorat zugewiesen.</message>
+	<message key="log.copyedit.copyeditorFile">Eine Lektoratsversion des Beitrags wurde hochgeladen.</message>
+	<message key="log.copyedit.authorFile">Von der Autorin/vom Autor lektorierte Beitragsdatei wurde hochgeladen.</message>
+
+	<message key="log.layout.layoutEditorAssigned">Beitrag {$articleId} wurde Layouter/in {$editorName} zugewiesen.</message>
+	<message key="log.layout.layoutEditorUnassigned">{$editorName} ist nicht mehr Layouter/in von Beitrag {$articleId}.</message>
+	<message key="log.layout.layoutEditComplete">{$editorName} hat das Layout von Beitrag {$articleId} abgeschlossen.</message>
+
+	<message key="log.editor.metadataModified">Die Metadaten für den Beitrag wurden von {$editorName} verändert.</message>
+	<message key="log.editor.editorFile">Eine Redaktionsversion des Beitrags wurde hochgeladen.</message>
+	<message key="log.editor.archived">Beitrag {$articleId} wurde archiviert.</message>
+	<message key="log.editor.restored">Beitrag {$articleId} wurde wieder auf die Liste gesetzt.</message>
+	<message key="log.editor.editorAssigned">Beitrag {$articleId} wurde Redakteur/in {$editorName} zugewiesen.</message>
+	<message key="log.editor.submissionExpedited">{$editorName} hat den Redaktionsprozess für Beitrag {$articleId} beschleunigt.</message>
+
+	<message key="log.proofread.assign">{$assignerName} hat Beitrag {$articleId} {$proofreaderName} zum Korrekturlektorat zugewiesen.</message>
+	<message key="log.proofread.complete">{$proofreaderName} hat Beitrag {$articleId} auf den Zeitplan gesetzt.</message>
+
+	<message key="log.imported">{$userName} hat Beitrag {$articleId} importiert.</message>
+
+	|-_- Lesewerkzeuge Angaben -_-|
+
+
+	|-_- Lesewerkzeuge - Einrichtung -_-|
+	<message key="rt.admin.settings">Lesewerkzeug-Optionen</message>
+
+	<message key="rt.admin.settings.description">Die Lesewerkzeuge erscheinen in denjenigen Rubriken der Zeitschrift, die zur Indizierung vorgesehen sind, in Frames neben den Beiträgen. Sie bestehen aus einem Satz optionaler Werkzeuge, die sich auf den jeweiligen Beitrag beziehen und die unten aufgelistet sind, sowie einem Satz von Werkzeugen, die verwandte Themen zugänglich machen, gegliedert nach Bereichen und Fachgebieten.</message>
+	<message key="rt.admin.settings.enableReadingTools">Lesewerkzeuge für die gekennzeichneten Rubriken der Zeitschrift aktivieren.</message>
+	<message key="rt.admin.settings.relatedItems">Verwandte Beiträge</message>
+	<message key="rt.admin.settings.relatedItemsLink"><![CDATA[Siehe <a href="{$relatedItemsLink}" class="action">Werkzeuge für Verwandte Beiträge</a> zum Anzeigen, Hinzufügen, Korrigieren oder Entfernen von verwandten Themen für jedes Gebiet.]]></message>
+
+	<message key="rt.admin.options">Zeitschriftenwerkzeuge</message>
+	<message key="rt.admin.relatedItems">Werkzeuge für Verwandte Beiträge</message>
+
+	<message key="rt.admin.settings.addComment">Kommentieren (ermöglicht Leser/innen, Kommentare abzugeben. Die/der Zeitschriftenverwalter/in kann diese Kommentare löschen.)</message>
+	<message key="rt.admin.settings.addComment.authenticated">Benutzer/innen müssen registriert und eingeloggt sein, um kommentieren zu können. Anonymes Kommentieren ist nicht möglich.</message>
+	<message key="rt.admin.settings.addComment.anonymous">Benutzer/innen müssen registriert und eingeloggt sein, um Kommentare abgeben zu können. Anonymes Kommentieren ist möglich.</message>
+	<message key="rt.admin.settings.addComment.unauthenticated">Benutzer/innen müssen nicht registriert sein, um Kommentare abgeben zu können. Anonymes Kommentieren ist möglich.</message>
+
+
+	|-_- Lesewerkzeuge - Versionen -_-|
+
+	|-_- Lesewerkzeuge - Kontext -_-|
+
+	|-_- Lesewerkzeuge - Suche -_-|
+
+	<message key="rt.admin.validateUrls.description"><![CDATA[Für Suchmaschinen möglicherweise ungültige URL sind unten aufgeführt.<br/>
+Dieser Test ist nicht 100% genau, Sie sollten daher jede hier als ungültig gekennzeichneten URL manuell nachprüfen.<br/>
+Die Prüfung kann bei Such-URLs, die Formularausfüllung verlangen, fehlschlagen.]]></message>
+
+	|-_- Lesewerkzeuge - Elemente -_-|
+
+	
+
+
+	<message key="rt.metadata.dublinCore.primaryAuthor">Autor/in</message>
+
+	<message key="rt.metadata.pkp.primaryAuthor">Name der Autorin/des Autors, Institution, Land</message>
+	<message key="rt.metadata.pkp.peerReviewed">Begutachter Beitrag</message>
+	<message key="rt.metadata.pkp.doi">Digital Object Identifier (DOI)</message>
+
+
+
+
+
+	<message key="rt.beNotifiedWhen">Benachrichtigung, falls...</message>
+
+	<message key="rt.thisJournal">Zeitschrift durchsuchen</message>
+
+
+	<message key="rt.context.authorTermsDescription">Bei Beiträgen von mehr als einer Autorin/einem Autor lassen Sie für eine Suche nach ähnlichen gemeinsamen Arbeiten dieser Autor/innen alle Namen angekreuzt oder wählen Sie für die Suche nach einzelnen Autor/innen nur jeweils einen Namen aus. Um weitere Informationen zu den durchsuchten Quellen zu erhalten, gehen Sie zu "Über uns". Die Quellen wurden nach ihrer Relevanz und wegen des freien Zugangs zu allen ihren Inhalten bzw. Teilen ihrer Inhalte ausgesucht.</message>
+
+
+
+
+	|-_-
+	 *
+	 * VERSCHIEDENES - Enthält Einträge, die unter keinen der anderen Abschnitte fallen 
+	 *
+	-_-|
+	|-_- Authorisierung -_-|
+	<message key="user.authorization.copyeditorAssignmentMissing">Zugriff verweigert! Sie sind nicht als Lektor/in für diesen Artikel eingeteilt worden.</message>
+	<message key="user.authorization.noJournal">Keine Zeitschrift im Kontext!</message>
+	<message key="user.authorization.sectionAssignment">Sie versuchen auf einen Artikel zuzugreifen, der nicht Teil Ihrer Rubrik ist.</message>
+	<message key="user.authorization.invalidCopyditorSubmission">Ungültige Lektor/innenfassung oder keine Lektor/innenfassung angefordert!</message>
+	<message key="user.authorization.invalidSectionEditorSubmission">Ungültige Rubrikredakteur/innenfassung oder keine Rubrikredakteur/innenfassung angefordert!</message>
+
+	|-_- Symbole: Standard "alt" Text -_-|
+
+	|-_- Meldungen: Fehlerbehebung -_-|
+	<message key="debug.notes.currencyListLoad">Währungsliste "{$filename}" aus XML geladen</message>
+	<message key="debug.notes.helpMappingLoad">Auf der Suche nach {$id} wurde die XML-Hilfedatei {$filename} erneut geladen.</message>
+	-->
+</locale>

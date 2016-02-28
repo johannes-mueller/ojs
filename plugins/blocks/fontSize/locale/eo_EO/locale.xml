@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the eo_EO (Esperanto) locale.
+  *
+  * $Id$
+  -->
+ 
+<locale name="eo_EO" full_name="Esperanto">
+	<message key="plugins.block.fontSize.displayName">Parto pri tipara grandeco</message>
+	<message key="plugins.block.fontSize.description">Tiu ĉi kromaĵo prizogas la flankbretan tipargrandecŝanĝilon.</message>
+	<message key="plugins.block.fontSize.title">Tipara grandeco</message>
+	<message key="plugins.block.fontSize.small">Malgranda</message>
+	<message key="plugins.block.fontSize.medium">Mezgranda</message>
+	<message key="plugins.block.fontSize.large">Granda</message>
+</locale>

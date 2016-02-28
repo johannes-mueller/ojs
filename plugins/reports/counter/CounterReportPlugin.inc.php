@@ -76,7 +76,7 @@ class CounterReportPlugin extends ReportPlugin {
 	 */
 	function getTemplatePath() {
 		return parent::getTemplatePath() . 'templates/';
-	}	 
+	}
 
 	/**
 	 * Get the latest counter release
@@ -85,7 +85,7 @@ class CounterReportPlugin extends ReportPlugin {
 	function getCurrentRelease() {
 		return '4.1';
 	}
-	
+
 	/**
 	 * List the valid reports
 	 * Must exist in the report path as {Report}_r{release}.inc.php
@@ -129,7 +129,7 @@ class CounterReportPlugin extends ReportPlugin {
 	function getClassPath() {
 		return $this->getPluginPath() . DIRECTORY_SEPARATOR . 'classes';
 	}
-	
+
 
 	/**
 	 * Return the report path

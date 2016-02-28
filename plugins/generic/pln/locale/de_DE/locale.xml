@@ -10,14 +10,14 @@
   * PLN plugin localization strings
   * Please contact Marco Tullney, marco.tullney@fu-berlin.de, with any questions regarding this translation.
   -->
- 
+
 <locale name="de_DE" full_name="Deutsch (Deutschland)">
 	<message key="plugins.generic.pln">PKP-PLN-Plug-In</message>
 	<message key="plugins.generic.pln.description">Das PKP-PLN-Plug-In wird Ihre veröffentlichten Inhalte in das PKP Private LOCKSS Network zur Archivierung abliefern.</message>
 	<message key="plugins.generic.pln.manager.setup.description"><![CDATA[<strong>PKP Private LOCKSS Network</strong><br /><br />Bitte lesen Sie die <a href="https://pkp.sfu.ca/pkp-lockss/" target="_blank">Übersicht zu PKP PLN</a> und füllen Sie <a href="{$plnPluginURL}">dieses einfache Formular</a> aus. Diese Option wird die Aufnahme Ihrer Zeitschrift in das Public Knowledge Project Private LOCKSS Network (PKP PLN) aktivieren.]]></message>
 	<message key="plugins.generic.pln.enabled">Das PKP-PLN-Plug-In wurde aktiviert.</message>
 	<message key="plugins.generic.pln.disabled">Das PKP-PLN-Plug-In wurde deaktiviert.</message>
-	
+
 	<message key="plugins.generic.pln.settings_page">PKP-PLN-Plug-In - Einstellungen</message>
 	<message key="plugins.generic.pln.settings">Einstellungen</message>
 	<message key="plugins.generic.pln.settings.acron_required">Das PKP-PLN-Plug-In benötigt entweder das Acron-Plug-In oder ein Tool für regelmäßig wiederholte Aktionen (wie 'cron').</message>
@@ -29,7 +29,7 @@
 	<message key="plugins.generic.pln.settings.journal_uuid_help">Dies ist die eindeutige Kennung Ihrer Zeitschrift für das PKP PLN. Sie müssen diese Kennung angeben, wenn Sie Support durch die Administrator/innen von PKP PLN erhalten möchten.</message>
 	<message key="plugins.generic.pln.settings.refresh">Aktualisieren</message>
 	<message key="plugins.generic.pln.settings.refresh_help">Wenn aus irgendeinem Grund keine Einträge oben gelistet sind oder wenn Sie wissen, dass die Einträge aktualisiert worden sind, klicken Sie Aktualisieren um die Liste zu erneuern.</message>
-	
+
 	<message key="plugins.generic.pln.required.object_type">Bitte wählen Sie einen Typ für die Objektablieferung.</message>
 	<message key="plugins.generic.pln.required.object_threshold">Bitte wählen Sie eine Schwelle für die Objektablieferung.</message>
 	<message key="plugins.generic.pln.required.terms_of_use_agreement">Die Zustimmung zu den Nutzungsbedingungen des Netzwerks ist erforderlich, um bei dem PLN abzuliefern.</message>
@@ -53,7 +53,7 @@
 	<message key="plugins.generic.pln.status.lockss_status">LOCKSS-Status</message>
 	<message key="plugins.generic.pln.status.complete">Abgeschlossen</message>
 	<message key="plugins.generic.pln.status.confirmReset">Sind Sie sicher, dass Sie diese Ablieferung zurücksetzen wollen? Es wird neu gepackt und erneut zum Server zur Verarbeitung geschickt.</message>
-	
+
 	<!-- entries in the status page table -->
 	<message key="plugins.generic.pln.status.unknown">Unbekannt</message>
 	<message key="plugins.generic.pln.status.new">Neu</message>
@@ -61,7 +61,7 @@
 	<message key="plugins.generic.pln.status.transferred">Transferiert</message>
 	<message key="plugins.generic.pln.status.received">Erhalten</message>
 	<message key="plugins.generic.pln.status.validated">Validiert</message>
-	<message key="plugins.generic.pln.status.sent">An LOCKSS geschickt</message>	
+	<message key="plugins.generic.pln.status.sent">An LOCKSS geschickt</message>
 	<message key="plugins.generic.pln.status.syncing">In Synchronisation</message>
 	<message key="plugins.generic.pln.status.agreement">Vereinbarung</message>
 	<message key="plugins.generic.pln.status.updated">Aktualisiert</message>

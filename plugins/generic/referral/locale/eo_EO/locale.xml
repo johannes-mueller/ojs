@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the eo_EO (Esperanto) locale.
+  *
+  * $Id$
+  -->
+ 
+<locale name="eo_EO" full_name="Esperanto">
+	<message key="plugins.generic.referral.name">Referenca kromaĵo</message>
+	<message key="plugins.generic.referral.description">The Referral Plugin tracks incoming refback URLs to articles (i.e. when a reader follows an external link to an article), allowing Authors to maintain and potentially publish an automatically-updated list of refbacks to an article.</message>
+	
+	<message key="plugins.generic.referral.editReferral">Redakti rereferencon</message>
+	<message key="plugins.generic.referral.createReferral">Krei rereferencon</message>
+	<message key="plugins.generic.referral.referrals">Rereferencoj</message>
+	<message key="plugins.generic.referral.count">Trafoj</message>
+	<message key="plugins.generic.referral.dateAdded">Aldonita je</message>
+	<message key="plugins.generic.referral.all">Ĉiuj</message>
+	<message key="plugins.generic.referral.all.empty">Nuntempe neniuj rereferencoj.</message>
+	<message key="plugins.generic.referral.status.new">Novaj</message>
+	<message key="plugins.generic.referral.status.new.empty">Nuntempe neniuj novaj rereferencoj.</message>
+	<message key="plugins.generic.referral.status.accept">Publikigi</message>
+	<message key="plugins.generic.referral.status.accepted">Publikigitaj</message>
+	<message key="plugins.generic.referral.status.accept.empty">Nuntempe neniuj publikigitaj rereferencoj.</message>
+	<message key="plugins.generic.referral.status.decline">Ignori</message>
+	<message key="plugins.generic.referral.status.declined">Ignoritaj</message>
+	<message key="plugins.generic.referral.status.decline.empty">Nuntempe neniuj ignoritaj rereferencoj.</message>
+	<message key="plugins.generic.referral.confirmDelete">Ĉu vi certas ke vi volas forigi tiun rereferencon?</message>
+	<message key="plugins.generic.referral.nameRequired">Titolo por la rereferenco bezonatas.</message>
+	<message key="plugins.generic.referral.urlRequired">URL por la rereferenco bezontatas.</message>
+	<message key="plugins.generic.referral.settings">Agordoj por la referenca kromaĵo</message>
+	<message key="plugins.generic.referral.settings.description">La referenca kromaĵo registras retpaĝojn kiuj ligas al artikoloj publikigitaj per tiu ĉi revuo. Tiel la verkanto povas sekvi kaj laŭplaĉe publikigi ilin. Tiu ĉi formularo ebligas al la revua administristo agordi kiel tiaj ligiloj estas registritaj.</message>
+	<message key="plugins.generic.referral.excusions">Esceptoj</message>
+<!-- nefarite
+	<message key="plugins.generic.referral.exclusions.description"><![CDATA[Enter a list of regular expression patterns, one per line, to be treated as exclusions for referral logging. This can be used to prevent search engine requests from cluttering the list of referrals. For more information on regular expressions, see <a href="http://ca.php.net/manual/en/ref.pcre.php" target="_new">http://ca.php.net/manual/en/ref.pcre.php</a>.]]></message>
+-->
+</locale>

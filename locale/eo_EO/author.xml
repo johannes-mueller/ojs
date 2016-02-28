@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * ojs2-devel/locale/en_US/author.xml
+  *
+  * Copyright (c) 2003-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (English) locale.
+  *
+  * $Id$
+  -->
+
+<locale name="en_US" full_name = "English">
+	<message key="author.submit">Nova ensendo</message>
+	<message key="author.track">Aktivaj ensendoj</message>
+<!--nefarite
+	<message key="author.competingInterests"><![CDATA[Competing&nbsp;interests <a target="_new" class="action" href="{$competingInterestGuidelinesUrl}">CI&nbsp;Policy</a>]]></message>
+-->
+	<message key="author.submit.submitArticle">Ensendi artikolon</message>
+	<message key="author.submit.stepsToSubmit">Kvin paŝoj al ensendo</message>
+	<message key="author.submit.startHereTitle">Komenci novan ensendon</message>
+	<message key="author.submit.startHereLink"><![CDATA[<a href="{$submitUrl}" class="action">Klaku ĉi tien</a> por la unua el kvin paŝoj de ensendo.]]></message>
+	<message key="author.submit.step1">1-a paŝo. Komenci la ensendon</message>
+	<message key="author.submit.step2">2-a paŝo. Alŝuti la ensendaĵon</message>
+	<message key="author.submit.step3">3-a paŝo. Enigi metadatumon de la ensendo</message>
+	<message key="author.submit.step4">4-a paŝo. Alŝuti kromdosierojn</message>
+	<message key="author.submit.step4a">Krompaŝo. Aldoni kromdosieron</message>
+	<message key="author.submit.step5">5-a paŝo. Konfirmi la ensendon</message>
+	<message key="author.submit.start">1. Komenci</message>
+	<message key="author.submit.upload">2. Alŝuti ensendaĵon</message>
+	<message key="author.submit.metadata">3. Enigi metadatumon</message>
+	<message key="author.submit.supplementaryFiles">4. Alŝuti kromdosierojn</message>
+	<message key="author.submit.confirmation">5. Konfirmo</message>
+	<message key="author.submit.cancelSubmission">Vi povas kompletigi vian ensendon alifoje per prilabori la aktivajn ensendojn en via ĉefpaĝo.</message>
+	<message key="author.submit.notAccepting">Tiu ĉi revuo nuntempe ne akceptas ensendojn.</message>
+<!--nefarite (verŝajne ne bezonatas)
+	<message key="author.submit.requestWaiver">Request Waiver</message>
+	<message key="author.submit.qualityForWaiver">Please consider waiving the Article Submission Fee for this article</message>
+	<message key="author.submit.addReasonsForWaiver">Please use the comments box below to indicate why fees should be waived.</message>
+	<message key="author.submit.mustEnterWaiverReason">If you are applying for a waiver, you must enter a reason in the space provided.</message>
+-->
+
+	<message key="author.submissions.queuedReviewSubsequent">En revizia rondo {$round}</message>
+	<message key="author.submissions.queuedReviewRevisions">Reviziata: Revizioj bezonataj.</message>
+	<message key="author.submissions.queuedEditingCopyedit">Redaktata: Provlegado petita</message>
+	<message key="author.submissions.queuedEditingProofread">Redaktata: Korektlegado petita</message>
+	<message key="author.submissions.uploadCopyeditedVersion">Alŝuti korektlegitan version</message>
+	<message key="author.submissions.proofreadingCorrections">Korektlegaj korektoj</message>
+	<message key="author.submissions.confirmDelete">Ĉu vi certas, ke vi volas malfari la nekompletan ensendadon?</message>
+	<message key="author.submissions.viewStatus">Rigardi staton</message>
+	<message key="author.submissions.noSubmissions">Neniuj ensendoj.</message>
+	<message key="author.submit.howToSubmit"><![CDATA[Ĉu malfacilaĵoj? Kontaktu <a href="mailto:{$supportEmail}">{$supportName}</a> por helpo ({$supportPhone}).]]></message>
+	<message key="author.submit.howToSubmitNoPhone"><![CDATA[Ĉu malfacilaĵoj? Kontaktu <a href="mailto:{$supportEmail}">{$supportName}</a> por helpo.]]></message>
+	<message key="author.submit.journalSection">Rubriko</message>
+	<message key="author.submit.journalSectionDescription"><![CDATA[Elektu taŭgan rubrikon por la ensendo (v. Rubrikoj kaj Gvidlinioj en <a href="{$aboutUrl}" target="_new">Pri</a> la revuo).]]></message>
+	<message key="author.submit.selectSection">Bonvolu elekti rubrikon...</message>
+	<message key="author.submit.submissionLocale">Lingvo de la kontribuo</message>
+<!-- nefarite (ne bezonatas)
+	<message key="author.submit.submissionLocaleDescription">This journal accepts submissions in several languages. Choose the primary language of the submission from the pulldown below.</message>
+-->
+	<message key="author.submit.submissionChecklist">Kontrollisto por kontribui</message>
+	<message key="author.submit.submissionChecklistDescription">Indiku ke tiu ĉi kontribuo estas preta por konsidero por tiu ĉi revuo per marki la jenon (komentojn por la redaktisto vi povas aldoni ĉi sube).</message>
+	<message key="author.submit.verifyChecklist">Vi devas certigi ke ĉiuj eroj en la kontribua kontrollisto estas plenumitaj antaŭ ol daŭrigi.</message>
+	<message key="author.submit.copyrightNoticeAgree">La verkantoj konsentas pri la kondiĉoj de tiu ĉi kopirajta noto, kiu validos por la kontribuo se kaj kiam ĝi estas publikigata per la revuo.  (komentojn por la redaktisto vi povas aldoni ĉi sube).</message>
+	<message key="author.submit.copyrightNoticeAgreeRequired">Vi devas konsenti kun la kondiĉoj de la kopirajta noto antaŭ ol daŭrigi.</message>
+	<message key="author.submit.commentsForEditor">Komentoj por la redaktisto</message>
+	<message key="author.submit.comments">Entajpu tekston (laŭplaĉe):</message>
+	<message key="author.submit.form.sectionRequired">Bonvolu elekti taŭgan revuan rubrikon por la kontribuo.</message>
+	<!-- nefarite message key="author.submit.form.localeRequired">Please select a submission language.</message>-->
+	<message key="author.submit.privacyStatement">Privatecaj kondiĉoj de la revuo</message>
+	<message key="author.submit.reorderInstructions">Ordigu verkantojn laŭ la ordo en kiu ili aperu en la publikaĵo.</message>
+	<message key="author.submit.reorder">Reordigi verkantojn</message>
+	<message key="author.submit.selectPrincipalContact">Ĉefa kontakto por korespondado</message>
+	<message key="author.submit.addAuthor">Aldoni verkanton</message>
+	<message key="author.submit.deleteAuthor">Forigi verkanton</message>
+
+	<message key="author.submit.uploadInstructions"><![CDATA[<p>Tiel vi povas ensendi kontribuon:</p>
+	  <ol>
+	    <li>Elektu la dosieron de via kontribuo por alŝuti ĝin.</li>
+	    <li>Alklaku "Alŝuti". La dosiero estos alŝutata al la servilo de la revuo kaj renomigata laŭ la kutimoj de la revuo.</li>
+	    <li>Kiam la kontribuo estas alŝutita, alklaku "Konservi kaj daŭrigi".</li>
+	  <ol>]]></message>
+
+	<message key="author.submit.submissionIndexingDescription">Entajpu kapvortojn por la kontribuo; separigu la kapvortojn per punktokomoj (kapvorto1; kapvorto2; kapvorto3;).</message>
+	<message key="author.submit.submissionSupportingAgencies">Subtenata de</message>
+	<message key="author.submit.submissionSupportingAgenciesDescription">Indiku la institutojn, kiu subtenis aŭ financis la laboron prezentatan en la kontribuo.</message>
+	<message key="author.submit.coverageInstructions">Celas la geografan lokon, laŭtempan aŭ historian kovradon, kaj/aŭ karakteron de la esploraĵo.</message>
+<!--nefarite
+	<message key="author.submit.subjectClassInstructions">Use the hyperlinked classification system to select classification terms and, if appropriate, numbers.</message>
+	-->
+	<message key="author.submit.languageInstructions"><![CDATA[Esperanto=eo; Angla=en; Franca=fr; Hispana=es. 
+		   <a href="http://eo.wikipedia.org/wiki/Lingvolisto/1/Indekso" target="_blank">Pliaj kodoj</a>.]]></message>
+	<message key="author.submit.form.authorRequired">Minimume unu verkanto bezonatas.</message>
+	<message key="author.submit.form.authorRequiredFields">Persona nomo, familia nomo kaj retpoŝtado de ĉiu verkanto bezonatas.</message>
+	<message key="author.submit.form.titleRequired">Bonvolu entajpi la titolon de via artikolo.</message>
+	<message key="author.submit.form.abstractRequired">Bonvolu entajpi la resumon de via artikolo.</message>
+	<message key="author.submit.form.wordCountAlert">Vi transiris la limon de maksimuma vortkvanto por tiu ĉi rubriko.</message>
+	<message key="author.submit.submissionFile">Kontribua dosiero</message>
+	<message key="author.submit.uploadSubmissionFile">Alŝuti kontribuan dosieron</message>
+	<message key="author.submit.replaceSubmissionFile">Anstataŭigu kontribuan dosieron</message>
+	<message key="author.submit.noSubmissionFile">Neniu kontribua dosiero alŝutita.</message>
+	<message key="author.submit.noSubmissionConfirm">Ĉu vi certas, ke vi volas daŭrigi la ensendon sen alŝuti kontribuan dosieron?</message>
+
+	<message key="author.submit.supplementaryFilesInstructions">Tiu ĉi nedeviga paŝo permesas aldoni kromajn dosierojn al
+	  kontribuo. La ajnformataj dosieroj povas inkluzivi (a)
+	  bildojn, desegnaĵojn aperantaj en la artikolo aŭ (b) aliaj
+	  datumojn nealdoneblajn al la teksto mem, kiel ekzemple
+	  videaĵoj, sonaĵoj.</message>
+	
+	<message key="author.submit.supplementaryFiles.saveToUpload">Konservu por alŝuti la dosieron. (Poste pliaj eblas alŝuti pliajn dosierojn.)</message>
+	<message key="author.submit.forgottenSubmitSuppFile">Ĉu vi certas, ke vi volas daŭrigi sen alŝuti la kromdosieron elektitan?</message>
+	<message key="author.submit.noSupplementaryFiles">Neniu kromdosieroj estas aldonitaj al la kontribuo.</message>
+	<message key="author.submit.backToSupplementaryFiles">Reen al kromdosieroj</message>
+	<message key="author.submit.confirmDeleteSuppFile">Ĉu vi certas, ke vi volas forigi tiun ĉi kromdosieron?</message>
+	<message key="author.submit.uploadSuppFile">Alŝuti kromdosieron.</message>
+	<message key="author.submit.addSupplementaryFile">Aldoni kromdosieron</message>
+	<message key="author.submit.editSupplementaryFile">Modifi kromdosieron</message>
+	<message key="author.submit.supplementaryFileData">Metadatumo de kromdisiero</message>
+	<message key="author.submit.supplementaryFileDataDescription">Por enindeksigi tiun ĉi krommaterialon, enigu la sekvan
+	  metadatumon por la alŝutita kromdisiero.</message>
+	<message key="author.submit.supplementaryFileUpload">Kromdosiero</message>
+	<message key="author.submit.suppFile.createrOrOwner">Kreinto (aŭ posednato) de la dosiero</message>
+	<message key="author.submit.suppFile.researchInstrument">Esplorilo</message>
+	<message key="author.submit.suppFile.researchMaterials">Esplormaterialo</message>
+	<message key="author.submit.suppFile.researchResults">Esplorresultoj</message>
+	<message key="author.submit.suppFile.transcripts">Transskriboj</message>
+	<message key="author.submit.suppFile.dataAnalysis">Analizo</message>
+	<message key="author.submit.suppFile.dataSet">Datumaro</message>
+	<message key="author.submit.suppFile.sourceText">Fontoteksto</message>
+	<message key="author.submit.suppFile.briefDescription">Malloga priskribo</message>
+	<message key="author.submit.suppFile.contributorOrSponsor">Kontribuantoj kaj subtenantoj</message>
+	<message key="author.submit.suppFile.availableToPeers">Montri dosieron al reviziantoj (sen metadatumo), ĉar ĝi ne malhelpos blindan reviziadon.</message>
+	<message key="author.submit.suppFile.publisherDescription">Uzi nur kun formale publikigitaj materialoj.</message>
+
+	<message key="author.submit.suppFile.dateDescription">Dato kiam la datumo estis kolektita aŭ esplrilo farita.</message>
+	<message key="author.submit.suppFile.sourceDescription">Priskribo de la fonto</message>
+	<message key="author.submit.suppFile.specifyOtherType">Klarigi alian</message>
+	<message key="author.submit.suppFile.noFile">Neniu dosiero alŝutita.</message>
+	<message key="author.submit.suppFile.form.titleRequired">Bonvolu entajpi la titolon de tiu kromdosiero.</message>
+	<message key="author.submit.suppFile.form.subjectRequired">Bonvolu entajpi temon.</message>
+	<message key="author.submit.suppFile.form.descriptionRequired">Bonvolu entajpi priskribon.</message>
+	<message key="author.suppFile.suppFilePublicIdentificationExists">Publika kromdosiero-identigilo jam ekzistas.</message>
+	<message key="author.suppFile.publicSuppFileIdentifier">Publika kromdosiero-identigilo</message>
+
+
+	<message key="author.submit.confirmationDescription">Por ensendi vian artikolon al {$journalTitle} alklaku
+	  "Kompletigi ensendon". La ĉefa kontakto de la kontribuo
+	  ricevos konfirmon perretmesaĝan kaj povos sekvi la redakcian
+	  staton de la kontribuo sur la retejo de la revuo (ensaluto
+	  necesas). Koran dankon pro via intereso publikigi en {$journalTitle}.</message>
+	<message key="author.submit.noFiles">Neniuj dosieroj alkroĉitaj al la ensendo..</message>
+	<message key="author.submit.filesSummary">Alŝutitaj dosieroj</message>
+	<message key="author.submit.finishSubmission">Kompletigi ensendon</message>
+	<message key="author.submit.submissionComplete">
+	  Ensendo kompleta. Dankon pro via intereso publikigi en {$journalTitle}.
+	</message>
+	<message key="author.submit.expedite">
+	  <![CDATA[Se tiu ĉi kontribuo estas en formato preta por
+	  publikigado sen plia reviziado, redaktado aŭ enpaĝigo, vi
+	  povas meti ĝin tuj al la lasta rondo de la redakta vico per
+	  <a href="{$expediteUrl}" class="action">klaki ĉi
+	  tien</a>. (Notu ke nur redaktistoj havas tiun opcion por siaj
+	  ensendoj.)]]>
+	</message>
+	<message key="author.article.uploadAuthorVersion">Alŝuti verkantan version.</message>
+	<message key="author.article.copyeditedFile">Redaktita versio</message>
+	<message key="author.article.authorRevisedFile">Aŭtora versio</message>
+	<message key="author.submit.authorSubmitLoginMessage">
+	  Uzantkonto estas bezonata por kontribui al tiu ĉi revuo. Tio
+	  permesas al niaj redaktistoj sekvi viajn ensendaĵojn kaj
+	  kontakti vin se ŝanĝiĝas la sato de via kontribuo aŭ se plia
+	  informo estas bezonata de vi.
+	</message>
+</locale>

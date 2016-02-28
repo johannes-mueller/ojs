@@ -9,16 +9,16 @@
   * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
   *
   * Localization strings for the ru_RU (Русский) locale.
-  * With updates from Pavel Pisklakov (revising translation). 
+  * With updates from Pavel Pisklakov (revising translation).
   -->
- 
+
 <locale name="ru_RU" full_name="Русский">
 	<message key="plugins.generic.pln">Плагин «PKP PLN»</message>
 	<message key="plugins.generic.pln.description">Плагин «PKP PLN» отправляет ваш опубликованный контент для депонирования в Частную сеть LOCKSS от PKP.</message>
 	<message key="plugins.generic.pln.manager.setup.description"><![CDATA[<strong>Частная сеть LOCKSS от PKP</strong><br /><br />Пожалуйста, прочитайте <a href="https://pkp.sfu.ca/pkp-lockss/" target="_blank">обзор PKP PLN</a> и заполните <a href="{$plnPluginURL}">эту простую форму</a>. Эта настройка позволит включить ваш журналв Частную сеть LOCKSS, созданную Public Knowledge Project (PKP PLN).]]></message>
 	<message key="plugins.generic.pln.enabled">Плагин «PKP PLN» был включен.</message>
 	<message key="plugins.generic.pln.disabled">Плагин «PKP PLN» был отключен.</message>
-	
+
 	<message key="plugins.generic.pln.settings_page">Плагин «PKP PLN» — Настройки</message>
 	<message key="plugins.generic.pln.settings">Настройки</message>
 	<message key="plugins.generic.pln.settings.acron_required">Плагин PLN требуется либо плагин Acron, либо инструменты периодического запуска по расписанию, например, «cron».</message>
@@ -34,7 +34,7 @@
 	<message key="plugins.generic.pln.required.object_type">Пожалуйста, выберите тип депонируемого объекта.</message>
 	<message key="plugins.generic.pln.required.object_threshold">Пожалуйста, выберите порог депонируемых объектов.</message>
 	<message key="plugins.generic.pln.required.terms_of_use_agreement">Принятие условий использования сети является обязательным для депонирования в PLN.</message>
-	
+
 	<message key="plugins.generic.pln.objects.article">Статья</message>
 	<message key="plugins.generic.pln.objects.issue">Выпуск</message>
 
@@ -43,7 +43,7 @@
 	<message key="plugins.generic.pln.status.deposits">Депонируемые объекты</message>
 	<message key="plugins.generic.pln.status">Статус</message>
 
-	<!-- Заголовки таблицы на странице статуса -->	
+	<!-- Заголовки таблицы на странице статуса -->
 	<message key="plugins.generic.pln.status.docs"><![CDATA[<a href="{$statusDocsUrl}">Здесь описаны статусы депонирования в PLN</a>.]]></message>
 	<message key="plugins.generic.pln.status.id">ID</message>
 	<message key="plugins.generic.pln.status.type">Тип</message>
@@ -54,7 +54,7 @@
 	<message key="plugins.generic.pln.status.lockss_status">Статус LOCKSS</message>
 	<message key="plugins.generic.pln.status.complete">Завершено</message>
 	<message key="plugins.generic.pln.status.confirmReset">Вы уверены, что хотите заменить эти депонируемые объекты? Они будут заново упакованы и отправлены на сервер обработки.</message>
-	
+
 	<!-- строки в таблице на странице статуса -->
 	<message key="plugins.generic.pln.status.unknown">Неизвестно</message>
 	<message key="plugins.generic.pln.status.new">Новый</message>
